@@ -1,0 +1,16 @@
+backups/
+blueprints/
+crash-reports/
+downloads/
+journeymap/
+local/
+logs/
+mod_data/
+saves/
+schematics/
+screenshots/
+knownkeys.txt
+options.txt
+rhino.local.properties
+usercache.json
+usernamecache.json

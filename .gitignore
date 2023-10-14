@@ -14,3 +14,8 @@ options.txt
 rhino.local.properties
 usercache.json
 usernamecache.json
+scripts/
+banned-ips.json
+banned-players.json
+ops.json
+whitelist.json

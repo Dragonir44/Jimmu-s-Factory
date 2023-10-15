@@ -15,6 +15,8 @@
 	"disableLanceCollision": false,
 	// If true, all the weapons don't penetrate armor. It's recommended to set to true to avoid conflicts with some combat mods. Default value is false.
 	"disableArmorPiercing": false,
+	// If true, flame-bladed swords won't add laceration effect.
+	"disableLaceration": false,
 	// If true, all the weapons don't have any debuff as long as you hold something with both hands. It's recommended to set to true to avoid conflicts with some combat mods. Default value is false.
 	"disableTwoHanded": false,
 	// If true, you can't block with the weapons from the mod. It's recommended to set to true to avoid conflicts with some combat mods. Default value is false.

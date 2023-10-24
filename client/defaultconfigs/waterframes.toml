@@ -1,0 +1,20 @@
+
+[waterframes]
+	#Range: 10.0 ~ 1000.0
+	maxWidth = 100.0
+	#Range: 10.0 ~ 1000.0
+	maxHeight = 100.0
+	#Range: > 10
+	maxRenderDistance = 1000
+	disableUsageAdventure = true
+	disableUsageSurvival = false
+	#Only admins mode
+	disableUsageForPlayers = false
+	disableVLC = false
+	#Soon
+	disableLavaPlayer = false
+	#Disable pause trigger on redstone signal input
+	disableRedstone = false
+	disableWhitelist = false
+	whitelist = ["imgur.com", "gyazo.com", "prntscr.com", "tinypic.com", "puu.sh", "pinimg.com", "photobucket.com", "staticflickr.com", "flic.kr", "tenor.co", "gfycat.com", "giphy.com", "gph.is", "gifbin.com", "i.redd.it", "media.tumblr.com", "twimg.com", "discordapp.com", "images.discordapp.net", "discord.com", "githubusercontent.com", "googleusercontent.com", "googleapis.com", "wikimedia.org", "ytimg.com", "youtube.com", "twitch.com", "twitter.com", "soundcloud.com", "kick.com", "srrapero720.me", "youtu.be", "fbcdn.net", "drive.google.com"]
+

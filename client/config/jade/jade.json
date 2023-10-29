@@ -1,6 +1,6 @@
 {
   "general": {
-    "hintOverlayToggle": false,
+    "hintOverlayToggle": true,
     "hintNarratorToggle": true,
     "previewOverlay": true,
     "displayTooltip": true,
@@ -12,7 +12,7 @@
     "hideFromTabList": true,
     "enableTextToSpeech": false,
     "ttsMode": "PRESS",
-    "fluidMode": "NONE",
+    "fluidMode": "ANY",
     "reachDistance": 0.0,
     "debug": false,
     "itemModNameTooltip": true,

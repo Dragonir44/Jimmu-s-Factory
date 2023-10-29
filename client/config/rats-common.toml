@@ -78,6 +78,8 @@
 	"Rat King Max Rats" = 10
 
 ["Ratlantean Automaton"]
+	#If true, the Ratlantean Automaton will only be summonable in Ratlantis. Building it in any other dimension will have no effect.
+	"Summon Ratlantean Automaton only in Ratlantis" = false
 	#How often the Ratlantean Automaton will shoot a laser. It will shoot a laser every 1 in X attacks, X being the number defined.
 	#Range: > 0
 	"Ratlantean Automaton Shooting Chance" = 2
@@ -87,10 +89,10 @@
 	#The distance the Ratlantean Automaton can hit you with its laser.
 	#Range: > 0
 	"Ratlantean Automaton Ranged Attack Distance" = 10
-	#If true, the Ratlantean Automaton will only be summonable in Ratlantis. Building it in any other dimension will have no effect.
-	"Summon Ratlantean Automaton only in Ratlantis" = false
 
 [Neo-Ratlantean]
+	#If true, the Neo-Ratlantean will only be summonable in Ratlantis. Throwing the vial in any other dimension will have no effect.
+	"Summon Neo-Ratlantean only in Ratlantis" = false
 	#If true, the Neo-Ratlantean will utilize Laser Portals in its fight that shoot lasers at you.
 	"Neo-Ratlantean Laser Portals" = true
 	#The time it will take the Neo-Ratlantean to perform another attack after using the Laser Portal attack. Time is in ticks.
@@ -111,20 +113,20 @@
 	#The time it will take the Neo-Ratlantean to perform another attack after using the Mob Effect attack. Time is in ticks.
 	#Range: > 0
 	"Neo-Ratlantean Attack Cooldown after Effects" = 100
-	#If true, the Neo-Ratlantean will only be summonable in Ratlantis. Throwing the vial in any other dimension will have no effect.
-	"Summon Neo-Ratlantean only in Ratlantis" = false
 
 ["Flying Dutchrat"]
+	#If true, the Flying Dutchrat will only be summonable in Ratlantis. Ringing the bell in any other dimension will have no effect.
+	"Summon Flying Dutchrat only in Ratlantis" = false
 	#How many blocks away the dutchrat can fly away from its home point, which is the spot where the bell was when summoned.
 	#Range: 0 ~ 64
 	"Flying Dutchrat Restriction Radius" = 20
 	#How often the Flying Dutchrat will throw a sword. It will throw a sword every 1 in X attacks, X being the number defined.
 	#Range: > 0
 	"Flying Dutchrat Sword Throw Chance" = 5
-	#If true, the Flying Dutchrat will only be summonable in Ratlantis. Ringing the bell in any other dimension will have no effect.
-	"Summon Flying Dutchrat only in Ratlantis" = false
 
 ["Rat Baron"]
+	#If true, the Rat Baron will only be summonable in Ratlantis. Activating the siren in any other dimension will have no effect.
+	"Summon Automaton only in Ratlantis" = false
 	#The height above the ground the rat baron plane will hover around. A random amount of blocks between 0 and 10 will be added to the number provided at random points to keep things interesting.
 	#Range: 0 ~ 100
 	"Rat Baron Y Hover Height" = 20
@@ -134,8 +136,6 @@
 	#The amount of damage each bullet fired from the Rat Baron plane does. Setting to 0 will make the bullets purely visual.
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Rat Baron Bullet Damage" = 0.5
-	#If true, the Rat Baron will only be summonable in Ratlantis. Activating the siren in any other dimension will have no effect.
-	"Summon Automaton only in Ratlantis" = false
 
 ["Rat Griefing"]
 	#True if wild rats will destroy and eat crops
@@ -152,23 +152,37 @@
 	"Other Mobs can spread Plague" = true
 	#The max block hardness that rats are allowed to dig through. (Dirt = 0.5F, Cobblestone = 2.0F, Obsidian = 50.0F)
 	#Range: 0.0 ~ 1000000.0
-	"Rat Dig Strength" = 4.0
+	"Rat Dig Strength" = 6.0
 	#True if tamed rats will destroy crops when they harvest them
 	"Rats Break Crops on Harvest" = true
 
 ["Rat Upgrades"]
+	#If true, rats will recharge items held in their main hand when they have an energy upgrade.
+	"Rats Charge Held Items" = true
 	#How much RF a rat with a basic energy transfer upgrade can transport at a time.
 	#Range: > 1
 	"Rat RF Transfer Rate Basic" = 1000
+	#How much RF per tick a rat can charge their held item with a basic energy transfer upgrade.
+	#Range: > 1
+	"Rat Item Charge Rate Basic" = 10
 	#How much RF a rat with an advanced energy transfer upgrade can transport at a time.
 	#Range: > 1
 	"Rat RF Transfer Rate Advanced" = 5000
+	#How much RF per tick a rat can charge their held item with an advanced energy transfer upgrade.
+	#Range: > 1
+	"Rat Item Charge Rate Advanced" = 50
 	#How much RF a rat with an elite energy transfer upgrade can transport at a time.
 	#Range: > 1
 	"Rat RF Transfer Rate Elite" = 10000
+	#How much RF per tick a rat can charge their held item with an elite energy transfer upgrade.
+	#Range: > 1
+	"Rat Item Charge Rate Elite" = 100
 	#How much RF a rat with an extreme energy transfer upgrade can transport at a time.
 	#Range: > 1
 	"Rat RF Transfer Rate Extreme" = 100000
+	#How much RF per tick a rat can charge their held item with an extreme energy transfer upgrade.
+	#Range: > 1
+	"Rat Item Charge Rate Extreme" = 500
 	#How far away from players the Rat Upgrade: Voodoo Doll is effective.
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Voodoo Doll Rat distance" = 32.0
@@ -225,20 +239,6 @@
 	"Upgrade Regeneration Rate" = 30
 	#If true, Rats that have the Psychic upgrade will pick up blocks and throw them towards enemies.
 	"Psychic Throws Blocks" = false
-	#If true, rats will recharge items held in their main hand when they have an energy upgrade.
-	"Rats Charge Held Items" = true
-	#How much RF per tick a rat can charge their held item with a basic energy transfer upgrade.
-	#Range: > 1
-	"Rat Item Charge Rate Basic" = 10
-	#How much RF per tick a rat can charge their held item with an advanced energy transfer upgrade.
-	#Range: > 1
-	"Rat Item Charge Rate Advanced" = 50
-	#How much RF per tick a rat can charge their held item with an elite energy transfer upgrade.
-	#Range: > 1
-	"Rat Item Charge Rate Elite" = 100
-	#How much RF per tick a rat can charge their held item with an extreme energy transfer upgrade.
-	#Range: > 1
-	"Rat Item Charge Rate Extreme" = 500
 
 ["Misc Rat Adjustments"]
 	#Defines the amount of rats you can store in a sack at one time.

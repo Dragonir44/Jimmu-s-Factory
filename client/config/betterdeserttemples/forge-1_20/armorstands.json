@@ -1,8 +1,8 @@
 {
   "armoryHelmets": {
     "entries": {
-      "chainmail_helmet": 0.3,
-      "golden_helmet": 0.2
+      "golden_helmet": 0.2,
+      "chainmail_helmet": 0.3
     },
     "defaultItem": "air"
   },
@@ -15,15 +15,15 @@
   },
   "armoryChestplates": {
     "entries": {
-      "golden_chestplate": 0.2,
-      "chainmail_chestplate": 0.3
+      "chainmail_chestplate": 0.3,
+      "golden_chestplate": 0.2
     },
     "defaultItem": "air"
   },
   "wardrobeChestplates": {
     "entries": {
-      "chainmail_chestplate": 0.2,
-      "leather_chestplate": 0.4
+      "leather_chestplate": 0.4,
+      "chainmail_chestplate": 0.2
     },
     "defaultItem": "air"
   },

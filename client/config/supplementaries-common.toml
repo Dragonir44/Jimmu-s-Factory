@@ -248,6 +248,8 @@
 		enabled = true
 		#Makes so saplings that grow in a planter will break it turning into rooted dirt
 		broken_by_sapling = true
+		#When Farmers Delight is on planter will also act like rich soil and use it in its recipe
+		rich_soil_planter = true
 
 	[building.notice_board]
 		enabled = true
@@ -587,4 +589,7 @@
 		cat_unluck = true
 		#If you have unluck you are more likely to get hit by a lighting
 		lightning_unluck = true
+
+	[tweaks.golden_apple_disenchant]
+		enabled = true
 

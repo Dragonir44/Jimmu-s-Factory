@@ -617,78 +617,719 @@
     },
     "done": false
   },
+  "vampirism:vampire/become_vampire": {
+    "criteria": {
+      "main": "2023-11-04 09:37:15 +0100"
+    },
+    "done": true
+  },
+  "vampirism:vampire/bat": {
+    "criteria": {
+      "action": "2023-11-04 09:38:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:spider": "2023-11-04 09:39:24 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:spider": "2023-11-04 09:39:24 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-11-04 09:39:24 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_magenta": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/upgrades/poison_upgrade": {
+    "criteria": {
+      "has_eye": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_loom": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_brown": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/green_floating_carpet": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/orange_floating_carpet": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_gray": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/upgrades/bottler_upgrade": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_tripwire_hook": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_orange": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/vampire/chandelier": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/light_gray_floating_carpet": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_cyan": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/lime_floating_carpet": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/pink_floating_carpet": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/light_blue_floating_carpet": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_light_blue": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_red": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/purple_floating_carpet": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/gray_floating_carpet": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/combat/chef_toque": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/cyan_floating_carpet": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_light_gray": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_purple": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/combat/fisherman_hat": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/upgrades/jury_rigged_upgrade": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/yellow_floating_carpet": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/red_floating_carpet": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_blue": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_lime": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/brown_floating_carpet": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/black_floating_carpet": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_black": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/white_floating_carpet": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/rat_breeding_lantern": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_green": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_white": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/vampire/candelabra": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_yellow": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/blue_floating_carpet": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/misc/hammocks/rat_hammock_pink": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/decorations/magenta_floating_carpet": {
+    "criteria": {
+      "has_string": "2023-11-04 09:39:25 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/slice_map": {
+    "criteria": {
+      "has_map": "2023-11-04 18:56:30 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/soap/map": {
+    "criteria": {
+      "has_filled_map": "2023-11-04 18:57:10 +0100"
+    },
+    "done": true
+  },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2023-10-29 16:44:12 +0100"
+      "log_spam_fixer": "2023-11-04 19:23:40 +0100"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2023-10-29 16:44:12 +0100"
+      "log_spam_fixer": "2023-11-04 19:23:40 +0100"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2023-10-29 16:44:12 +0100"
+      "log_spam_fixer": "2023-11-04 19:23:40 +0100"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2023-10-29 16:44:12 +0100"
+      "log_spam_fixer": "2023-11-04 19:23:40 +0100"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2023-10-29 16:44:12 +0100"
+      "log_spam_fixer": "2023-11-04 19:23:40 +0100"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2023-10-29 16:44:12 +0100"
+      "log_spam_fixer": "2023-11-04 19:23:40 +0100"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2023-10-29 16:44:12 +0100"
+      "log_spam_fixer": "2023-11-04 19:23:40 +0100"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2023-10-29 16:44:12 +0100"
+      "log_spam_fixer": "2023-11-04 19:23:40 +0100"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2023-10-29 16:44:12 +0100"
+      "log_spam_fixer": "2023-11-04 19:23:40 +0100"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "requirement": "2023-10-29 16:44:26 +0100",
-      "log_spam_fixer": "2023-10-29 16:44:12 +0100"
+      "log_spam_fixer": "2023-11-04 19:23:40 +0100"
     },
-    "done": true
+    "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2023-10-29 16:44:12 +0100"
+      "log_spam_fixer": "2023-11-04 19:23:40 +0100"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2023-10-29 16:44:12 +0100"
+      "log_spam_fixer": "2023-11-04 19:23:40 +0100"
     },
     "done": false
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flags/flag_magenta": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "xercapaint:recipes/item_easel": {
+    "criteria": {
+      "has_item": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/daub_cross_brace": {
+    "criteria": {
+      "forge:rods/wooden": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/timber_brace": {
+    "criteria": {
+      "forge:rods/wooden": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/paraglider": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/hunter/crucifix": {
+    "criteria": {
+      "stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flags/flag_black": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flags/flag_green": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flags/flag_purple": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flags/flag_white": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/timber_cross_brace": {
+    "criteria": {
+      "forge:rods/wooden": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/hunter/stake": {
+    "criteria": {
+      "has_sticks": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "undergarden:recipes/combat/slingshot": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flags/flag_gray": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/faucet": {
+    "criteria": {
+      "forge:rods/wooden": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/tools/radius_stick": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/building_blocks/blockbarreldeco_onside": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "undergarden:recipes/decorations/shard_torch": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flags/flag_light_blue": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/daub_brace": {
+    "criteria": {
+      "forge:rods/wooden": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flags/flag_cyan": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flags/flag_red": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/building_blocks/blockbarreldeco_standing": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/tools/patrol_stick": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/motion_activated_light": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/crank": {
+    "criteria": {
+      "forge:rods/wooden": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flags/flag_orange": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/general/throne": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flags/flag_pink": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/timber_frame": {
+    "criteria": {
+      "forge:rods/wooden": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/wooden_fillet_knife": {
+    "criteria": {
+      "has_items": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/sonic_security_system": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/slingshot": {
+    "criteria": {
+      "forge:rods/wooden": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "rats:recipes/tools/cheese_stick": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "undergarden:recipes/decorations/torch_ditchbulb_paste": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flags/flag_brown": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/misc/shapetool": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "undergarden:recipes/decorations/undergarden_scaffolding": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flags/flag_blue": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/daub_frame": {
+    "criteria": {
+      "forge:rods/wooden": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flags/flag_yellow": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flags/flag_light_gray": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flags/flag_lime": {
+    "criteria": {
+      "has_stick": "2023-11-04 19:11:02 +0100"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

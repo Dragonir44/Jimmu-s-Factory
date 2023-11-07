@@ -242,6 +242,12 @@
 	#
 	#Range: -5 ~ 5
 	crystallineFlowerExtraTierCost = 0
+	# 
+	#-----------------------------------------------------
+	#
+	# Whether to allow special trades to activate during certain days of the year.
+	#
+	beeQueenSpecialDayTrades = true
 
 ["Essence Options"]
 	# 

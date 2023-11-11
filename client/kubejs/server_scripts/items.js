@@ -156,6 +156,19 @@ ServerEvents.recipes(event => {
         }
     )
 
+    event.shaped(
+        Item.of("vampirism:sunscreen_beacon", 1),
+        [
+            'GGG',
+            'GTG',
+            'GBG'
+        ],
+        {
+            G: 'minecraft:glass',
+            T: 'minecraft:tinted_glass',
+            B: 'minecraft:beacon'
+        }
+    )
 
     // Shapless
     event.shapeless(

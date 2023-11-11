@@ -1,31 +1,18 @@
 Add :
- - Athena Forge
- - Chipped Forge
- - Chunkloader
- - Iron Furnace
- - Resourceful lib
 
 Update :
- - Curios
- - Dark Utility
- - Explorify
- - FTB Chunks
- - FTB Backups
- - Incendium
- - Journey Map
- - Kobolds
- - KubeJS
- - Moonlight
- - Server Core
- - Structure gel
- - Supplementaries
- - The Bumblezone
- - The Undergarden
- - Simple Voice Chat
+ - Ambient Sounds
+ - Chat heads
+ - Chunkloader
+ - Craft Tweaker
+ - Jade Addons
+ - Macaw's Furniture
 
 
 Remove :
- - Create Structure (Remove from Curse Forge)
 
 Other : 
- - Add Elysium sword in beta. Currently you can find it in all lootr chest with 0.001% chance and can be repair with netherite ingot. Can be crafted (and maybe nerf) in the future.
+ - Augment percentage to obtain elysium sword, 0.001% -> 0.01%
+
+Warning : 
+ - A bug occured with hoglins spawn in some When Dungeon Arise, an issue has been opened on the mod's github. If you encounter this bug, please report it on the github issue in this link https://github.com/Aureljz/WhenDungeonsArise--Forge/issues/26.

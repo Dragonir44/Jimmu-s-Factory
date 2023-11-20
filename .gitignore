@@ -1,5 +1,8 @@
 backups/
 blueprints/
+config/**/*
+!config/supplementaries*.toml
+!config/vampirism-common.toml
 crash-reports/
 downloads/
 journeymap/

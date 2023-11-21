@@ -572,6 +572,8 @@
 		enchanted_book_power = 1.334
 		#Allow all books to be placed both vertically and horizontally
 		mixed_books = false
+		#Allows written books to be placed down. Requires shift clicking
+		written_books = false
 
 	[tweaks.zombie_horse]
 		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse

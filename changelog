@@ -37,4 +37,4 @@ Other :
  - Augment percentage to obtain elysium sword, 0.001% -> 0.01%
 
 Warning : 
- - A bug occured with hoglins spawn in some When Dungeon Arise. To fix it, we removed temporaly The Bumblezone. If you to keep it, keep in mind some dungeons will crash your server (for some reason, only servers are affected) and the mod is only disable in the client and server pack. I'll try to fix it as soon as possible.
+ - A bug occured with hoglins spawn in some When Dungeon Arise. To fix it, we removed temporaly The Bumblezone. If you to keep it, keep in mind some dungeons will crash your server (for some reason, only servers are affected) and the mod is only disable in the client and server pack. I'll try to fix it as soon as possible. If you won't play with it, you need to remove the world/dimensions/the_bumblezone folder and edit the level.dat file in the world folder to remove the_bumblezone dimension (Data/WorldGenSettings/dimensions/the_bumblezone:thebumblezone) using NBTExplorer. Sorry for the inconvenience.

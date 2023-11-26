@@ -11,7 +11,7 @@
 	#Range: 1 ~ 40000
 	sunscreenBeaconDistance = 32
 	#Whether the suncreen beacon can be mined in survival
-	sunscreenBeaconMineable = false
+	sunscreenBeaconMineable = true
 	#Calculate the blood level for unknown creatures based on their size
 	autoCalculateEntityBlood = true
 	#Whether players can infect other players

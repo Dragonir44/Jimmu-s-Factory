@@ -1,6 +1,7 @@
 Add :
  - Fusion
  - Enemy Expannsion
+ - Born in chaos
 
 Update :
  - Ambient Sounds
@@ -26,14 +27,14 @@ Update :
  - Sophisticated Storage
  - Spice of Life Carrot Edition
  - Supplementaries
- - The Bumblezone
  - Yungs Better Ocean Monuments
 
 
 Remove :
+ - The Bumblezone
 
 Other : 
  - Augment percentage to obtain elysium sword, 0.001% -> 0.01%
 
 Warning : 
- - A bug occured with hoglins spawn in some When Dungeon Arise, an issue has been opened on the mod's github. If you encounter this bug, please report it on the github issue in this link https://github.com/Aureljz/WhenDungeonsArise--Forge/issues/26.
+ - A bug occured with hoglins spawn in some When Dungeon Arise. To fix it, we removed temporaly The Bumblezone. If you to keep it, keep in mind some dungeons will crash your server (for some reason, only servers are affected) and the mod is only disable in the client and server pack. I'll try to fix it as soon as possible.

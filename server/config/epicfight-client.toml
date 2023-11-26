@@ -10,9 +10,9 @@
 	laser_pointer_color = 0.328125
 	enable_laser_pointer = true
 	camera_auto_switch = true
-	auto_preparation = false
+	auto_preparation = true
 	off_gore = false
-	no_mining_in_combat = false
+	no_mining_in_combat = true
 	battle_autoswitch_items = []
 	mining_autoswitch_items = []
 

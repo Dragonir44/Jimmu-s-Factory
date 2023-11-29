@@ -7,7 +7,7 @@
 !*/config/supplementaries*.toml
 !*/config/vampirism-common.toml
 !*/defaultconfigs/*
-!*/kubjs/*
+!*/kubejs/**
 !*/mods/*
 !*/packmenu/*
 !*/shaderpacks/*

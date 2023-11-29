@@ -1,40 +1,28 @@
 Add :
- - Fusion
- - Enemy Expannsion
- - Born in chaos
+    - Apothic Attributes
+    - The bumblezone
 
 Update :
- - Ambient Sounds
- - Chat heads
- - Chunkloader
- - Citadel
- - Connected glass
- - Craft Tweaker
- - Cristal Lib
- - Epic Fight
- - Jade Addons
- - Just Enough Enchantment Descriptions
- - Journey Map
- - Kobolds
- - KubeJS
- - Macaw's Furniture
- - Moonlight
- - Resourcefull Lib
- - Rhino Forge
- - Shoulder Surfing
- - Sophisticated Backpacks
- - Sophisticated Core
- - Sophisticated Storage
- - Spice of Life Carrot Edition
- - Supplementaries
- - Yungs Better Ocean Monuments
-
+    - Epic knights
+    - Born in chaos
+    - Craft Tweaker
+    - Curios
+    - Enchantment Descriptions
+    - Friends and foes
+    - ftb essentials
+    - ftb library
+    - Gateways to Eternity
+    - Kobolds
+    - Moonlight
+    - Pipez
+    - Placebo
+    - Polylib
+    - Resourcefull lib
+    - Structure gel
+    - Simple Voice Chat
 
 Remove :
- - The Bumblezone
 
-Other : 
- - Augment percentage to obtain elysium sword, 0.001% -> 0.01%
+Other :
 
-Warning : 
- - A bug occured with hoglins spawn in some When Dungeon Arise. To fix it, we removed temporaly The Bumblezone. If you to keep it, keep in mind some dungeons will crash your server (for some reason, only servers are affected) and the mod is only disable in the client and server pack. I'll try to fix it as soon as possible. If you won't play with it, you need to remove the world/dimensions/the_bumblezone folder and edit the level.dat file in the world folder to remove the_bumblezone dimension (Data/WorldGenSettings/dimensions/the_bumblezone:thebumblezone) using NBTExplorer. Sorry for the inconvenience.
+Warning :

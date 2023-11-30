@@ -1,3 +1,7 @@
+new :
+    - The launcher was here in open beta ! It's actually not very beatiful but it's work fine ! You can download it here : https://github.com/Dragonir44/JFLauncher/releases/latest (The README is comming soon to explain the features and the troubleshooting)
+
+
 Add :
     - Apothic Attributes
     - The bumblezone
@@ -20,8 +24,10 @@ Update :
     - Resourcefull lib
     - Structure gel
     - Simple Voice Chat
+    - Supplementary
 
 Remove :
+    - Toast Control
 
 Other :
 

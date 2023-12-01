@@ -1,0 +1,11 @@
+{
+  "name": "Multiplite",
+  "colors": [
+    "c48ed0",
+    "f4b3f3"
+  ],
+  "ingredient": {
+    "item": "createchromaticreturn:multiplite_ingot"
+  },
+  "enabled": true
+}

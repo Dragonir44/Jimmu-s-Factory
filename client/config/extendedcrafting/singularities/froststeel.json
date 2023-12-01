@@ -1,0 +1,11 @@
+{
+  "name": "Froststeel",
+  "colors": [
+    "c0c3cb",
+    "c0c3cb"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/froststeel"
+  },
+  "enabled": true
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Dark metal",
+  "colors": [
+    "b2b1b6",
+    "b7b8bd"
+  ],
+  "ingredient": {
+    "item": "born_in_chaos_v1:dark_metal_ingot"
+  },
+  "enabled": true
+}

@@ -15,6 +15,9 @@ WorldgenEvents.add(event => {
         prop.maxCount = 10
         prop.minCount = 1
         prop.weight = 80
+        prop.biomes = {
+            not: /.*end.*/
+        }
     })
     event.addSpawn(prop => {
         prop.category = 'monster'
@@ -22,5 +25,8 @@ WorldgenEvents.add(event => {
         prop.maxCount = 10
         prop.minCount = 1
         prop.weight = 80
+        prop.biomes = {
+            not: /.*end.*/
+        }
     })
 })

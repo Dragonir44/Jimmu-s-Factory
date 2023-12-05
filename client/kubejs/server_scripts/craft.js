@@ -177,4 +177,17 @@ ServerEvents.recipes(event => {
             "minecraft:dripstone_block"
         ]
     )
+
+    event.shapeless(
+        Item.of("minecraft:charcoal", 9),
+        [
+            "kubejs:charcoal_block"
+        ]
+    )
+    event.shapeless(
+        Item.of("kubejs:charcoal_block", 1),
+        [
+            "9x minecraft:charcoal"
+        ]
+    )
 })

@@ -1,0 +1,11 @@
+StartupEvents.registry('block', e => {
+    e.create("charcoal_block")
+        .displayName("Block of charcoal")
+        .material("stone")
+        .hardness(5)
+        .resistance(1.0)
+        .requiresTool(true)
+        .tagBlock("forge:blocks/charcoal")
+        .tagBlock("mineable/pickaxe")
+        .tagBlock('minecraft:needs_wooden_tool')
+})

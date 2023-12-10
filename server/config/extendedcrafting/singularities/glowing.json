@@ -1,0 +1,11 @@
+{
+  "name": "Glowing",
+  "colors": [
+    "fff8cd",
+    "ea9ea7"
+  ],
+  "ingredient": {
+    "item": "createchromaticreturn:glowing_ingot"
+  },
+  "enabled": true
+}

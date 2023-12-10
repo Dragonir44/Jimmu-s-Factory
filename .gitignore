@@ -22,6 +22,7 @@ server/mods/rubidium*
 server/mods/ToastControl*
 server/mods/watermedia*
 server/mods/waveycapes*
+!server/libraries/*
 !*/mods/*
 !*/packmenu/*
 !*/shaderpacks/*

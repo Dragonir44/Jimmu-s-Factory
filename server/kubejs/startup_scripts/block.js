@@ -1,7 +1,8 @@
 StartupEvents.registry('block', e => {
     e.create("charcoal_block")
         .displayName("Block of charcoal")
-        .material("stone")
+        .soundType("stone")
+        .mapColor('grey')
         .hardness(5)
         .resistance(1.0)
         .requiresTool(true)

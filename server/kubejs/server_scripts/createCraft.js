@@ -6,4 +6,10 @@ ServerEvents.recipes(e => {
 		// e.recipes.createDeploying('kubejs:diamonded_coal', ['kubejs:diamonded_coal', '64x minecraft:coal']),
         e.recipes.createPressing('kubejs:diamonded_coal', 'kubejs:diamonded_coal'),
 	]).transitionalItem('kubejs:diamonded_coal').loops(64) // set the transitional item and the number of loops
+
+	e.recipes.createEmptying([
+		'minecraft:bucket', 
+		Fluid.of('createchromaticreturn:refined_mixture', 1000)
+	], 'createchromaticreturn:refined_mixture_bucket')
+	console.info(JSON.stringify(Fluid.of('createchromaticreturn:refined_mixture')))
 })

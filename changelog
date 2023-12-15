@@ -24,6 +24,9 @@ Update :
 Remove :
 
 Other :
-    - Add craft to emptying the bucket of refined mixture via item drain from create
+    - Rename refined mixture to a readble name
+    - Rename shadow essence to a readble name
+    - Make block of charcoal as fuel for the furnace
+    - Fix Vampire and Advanced Vampire spawn in another dimension
 
 Warning :

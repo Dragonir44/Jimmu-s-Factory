@@ -1,0 +1,11 @@
+{
+  "name": "Yellorium",
+  "colors": [
+    "f1eab8",
+    "bdb982"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/yellorium"
+  },
+  "enabled": true
+}

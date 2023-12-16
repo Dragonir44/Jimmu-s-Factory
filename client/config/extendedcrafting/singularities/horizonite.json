@@ -1,0 +1,11 @@
+{
+  "name": "Horizonite",
+  "colors": [
+    "fed59c",
+    "d7968a"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/horizonite"
+  },
+  "enabled": true
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Graphite",
+  "colors": [
+    "cfcfd0",
+    "949495"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/graphite"
+  },
+  "enabled": true
+}

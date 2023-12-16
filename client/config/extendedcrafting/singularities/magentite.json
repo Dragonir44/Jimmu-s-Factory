@@ -1,0 +1,11 @@
+{
+  "name": "Magentite",
+  "colors": [
+    "efbcef",
+    "e88be8"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/magentite"
+  },
+  "enabled": true
+}

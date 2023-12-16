@@ -1,0 +1,11 @@
+{
+  "name": "Cyanite",
+  "colors": [
+    "d5edfe",
+    "a1bbd2"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/cyanite"
+  },
+  "enabled": true
+}

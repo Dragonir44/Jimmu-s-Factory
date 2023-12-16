@@ -1,0 +1,11 @@
+{
+  "name": "Inanite",
+  "colors": [
+    "f893b2",
+    "d78099"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/inanite"
+  },
+  "enabled": true
+}

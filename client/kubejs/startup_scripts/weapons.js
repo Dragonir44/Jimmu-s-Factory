@@ -21,7 +21,7 @@ StartupEvents.registry('item', e => {
         .unstackable()
         .rarity('epic')
         .tier('cosmic_tier')
-        .maxDamage(500)
+        .attackDamageBonus(500-4)
         .parentModel('kubejs:item/cosmic_blade')
     
     e.create('infinity_guard', 'basic')

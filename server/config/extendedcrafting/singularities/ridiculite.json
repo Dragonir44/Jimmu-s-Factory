@@ -1,0 +1,11 @@
+{
+  "name": "Ridiculite",
+  "colors": [
+    "feebfe",
+    "cdbdd0"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/ridiculite"
+  },
+  "enabled": true
+}

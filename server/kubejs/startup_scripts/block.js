@@ -7,6 +7,5 @@ StartupEvents.registry('block', e => {
         .resistance(1.0)
         .requiresTool(true)
         .tagBlock("forge:blocks/charcoal")
-        .tagBlock("mineable/pickaxe")
-        .tagBlock('minecraft:needs_wooden_tool')
+        .tagBlock("minecraft:mineable/pickaxe")
 })

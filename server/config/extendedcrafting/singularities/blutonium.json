@@ -1,0 +1,11 @@
+{
+  "name": "Blutonium",
+  "colors": [
+    "b9b9ee",
+    "8888bf"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/blutonium"
+  },
+  "enabled": true
+}

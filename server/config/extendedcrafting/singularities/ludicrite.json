@@ -1,0 +1,11 @@
+{
+  "name": "Ludicrite",
+  "colors": [
+    "d5a3ee",
+    "ad89c0"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/ludicrite"
+  },
+  "enabled": true
+}

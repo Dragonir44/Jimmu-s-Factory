@@ -3,6 +3,13 @@ StartupEvents.registry('item', e => {
         .displayName('Diamonded Coal')
         .unstackable()
         .texture('kubejs:item/diamonded_coal')
+
+    e.create('bang', 'hoe')
+        .displayName('Bang')
+        .unstackable()
+        .attackDamageBonus(0-4)
+        .parentModel('kubejs:item/bang')
+        .tier('bang_tier')
 })
 
 ItemEvents.modification(e => {

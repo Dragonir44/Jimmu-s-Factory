@@ -1,8 +1,8 @@
 ServerEvents.recipes(e => {
 	e.recipes.create.sequenced_assembly([
 		Item.of('minecraft:diamond').withChance(130.0),
-        Item.of('minecraft:charcoal').withChance(50.0),
-	], 'minecraft:coal_block', [
+        Item.of('minecraft:coal').withChance(50.0),
+	], 'kubejs:charcoal_block', [
         e.recipes.createPressing('kubejs:diamonded_coal', 'kubejs:diamonded_coal'),
 	]).transitionalItem('kubejs:diamonded_coal').loops(64)
 

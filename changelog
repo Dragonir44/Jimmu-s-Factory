@@ -5,6 +5,9 @@ new :
 Add :
     - Borderless Window
     - Ephero Lib
+    - Resourceful config
+    - Sound physics
+    - Tempad
     
 
 Update :
@@ -19,14 +22,17 @@ Update :
     - Friends and foes
     - Iceberg
     - KubeJS
+    - Macaw's windows
     - Simple voice chat
     - Supplementaries
     - The Bumblezone
     - Tool Stats
+    - Voice chat
     - Waystones
     
 
 Remove :
+    - The bumblezone : an issue was open on the github of the mod and the author said that the issue was due to a possible incompatibility with Cyclic. Keep it only if you began your journey in it in singleplayer.
 
 Other :
     - Rename refined mixture to a readble name

@@ -1,5 +1,6 @@
 *
 !*/
+!*/config/defaultoptions/*
 !*/config/extendedcrafting/**
 !*/config/aether-client.toml
 !*/config/advancementplaques-common.toml

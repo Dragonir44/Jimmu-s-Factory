@@ -1,29 +1,40 @@
-new :
+New :
     - The launcher was here in open beta ! It's actually not very beatiful but it's work fine ! You can download it here : https://github.com/Dragonir44/JFLauncher/releases/latest (The README is comming soon to explain the features and the troubleshooting)
 
 
 Add :
     - Borderless Window
+    - Embeddium
     - Ephero Lib
+    - MoreJS
     - Resourceful config
     - Sound physics
     - Tempad
+    - Towntalk
     
 
 Update :
     - Aether
     - Alex's mobs
     - Apothic Attributes
+    - BlockUI
     - Bookshelf
     - Create: Bells and Whistles
     - Create: Confectionary
     - Curios API
     - Croptopia
+    - Domum ornamentum
+    - Dynamic light
     - Friends and foes
     - Iceberg
     - KubeJS
     - Macaw's windows
+    - Minecolonies
+    - Magnesium/Rubidium Extras
+    - Occulus
+    - Rubidium Extra (embedium compatible)
     - Simple voice chat
+    - Structurize
     - Supplementaries
     - The Bumblezone
     - Tool Stats
@@ -33,6 +44,7 @@ Update :
 
 Remove :
     - The bumblezone : an issue was open on the github of the mod and the author said that the issue was due to a possible incompatibility with Cyclic. Keep it only if you began your journey in it in singleplayer.
+    - Rubidium : Replaced by Embedium. No more chunk display issue with Supplementaries sign post and no more crash when a book or enchanted book was placed.
 
 Other :
     - Rename refined mixture to a readble name

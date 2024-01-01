@@ -3,66 +3,64 @@ New :
 
 
 Add :
-    - Apotheosis
-    - Borderless Window
-    - Embeddium
-    - Ephero Lib
-    - MoreJS
-    - Resourceful config
-    - Sound physics
-    - Tempad
-    - Towntalk
-    - Trash slot
-    
+    - Create: deco
+    - HammerLib
+    - Little Frames
+    - PonderJS
+    - PowerfulJS
+    - Solar Flux Reborn
 
 Update :
     - Aether
-    - Alex's mobs
-    - Apothic Attributes
-    - BlockUI
+    - AmbiantSounds
+    - Blue Skies
     - Bookshelf
-    - Connected glass
-    - Create: Bells and Whistles
-    - Create: Confectionary
-    - Curios API
+    - Cloth cofig
+    - Create: Enchantment Industries
+    - Create
+    - Create: New Age
+    - Create: Addition
+    - Create: big cannons
+    - Create: casing
+    - Create: Steam'n Rails
+    - CreativeCore
     - Croptopia
+    - Cucumber
+    - Cupboard
+    - Curios API
+    - Cyclic
     - Domum ornamentum
-    - Dynamic light
-    - Friends and foes
-    - Gateways to Eternity
-    - Iceberg
-    - KubeJS
-    - Macaw's windows
-    - Minecolonies
-    - Magnesium/Rubidium Extras
-    - Occulus
-    - Patchouli
-    - Rubidium Extra (embedium compatible)
-    - Simple discord rich presence
-    - Simple voice chat
-    - Structurize
+    - Embeddium
+    - Enchantment Descriptions
+    - Extended Crafting
+    - Jade
+    - Just Enough Effect Descriptions
+    - Kobolds
+    - Moonelight
+    - Resourceful lib
+    - Sophisticated Backpacks
+    - Sophisticated Core
+    - Sophisticated Storage
+    - Sound Physics
+    - Structure gel
     - Supplementaries
-    - Tool Stats
-    - Vampirism integrations
-    - Voice chat
-    - Waystones
+    - Tempad
+    - Tools Stats
+    - Vampirism
+    - Watermedia
     
 
 Remove :
-    - The bumblezone : an issue was open on the github of the mod and the author said that the issue was due to a possible incompatibility with Cyclic. Keep it only if you began your journey in it in singleplayer.
-    - Rubidium : Replaced by Embedium. No more chunk display issue with Supplementaries sign post and no more crash when a book or enchanted book was placed.
+    - Create: Balanced Flight
+    - CraftTweaker
+    - Water Frames (Replaced by Little Frames)
 
 Other :
-    - Rename refined mixture to a readble name
-    - Rename shadow essence to a readble name
-    - Make block of charcoal as fuel for the furnace
-    - Fix Vampire and Advanced Vampire spawn in another dimension
-    - Add craft for cosmic blade
-    - Add craft for infinity guard
-    - Add craft for bâton de la vérité
-    - Add craft for cosmic sword
-    - Add new singularity for the ultimate singularity
-    - Add craft for the ultimate ingot
-    - Add effect for sub part of the cosmic sword
+    - Try to recreate the Create: Balanced Flight mod (WIP)
+    - Add name for the diluted bonemeal liquid
+    - Add diluted bonemeal bucket item
+    - Add diluted bonemeal bucket recipe
+    - Add diluted bonemeal bucket usage
+    - Sort KubeJS scripts
 
 Warning :

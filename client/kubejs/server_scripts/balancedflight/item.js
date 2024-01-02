@@ -1,3 +1,7 @@
+const FireworkRocketEntity = Java.loadClass('net.minecraft.world.entity.projectile.FireworkRocketEntity')
+const ItemStack = Java.loadClass('net.minecraft.world.item.ItemStack')
+const Items = Java.loadClass('net.minecraft.world.item.Items')
+
 let hasRing = {}
 let isFallFlying = {}
 
@@ -35,7 +39,8 @@ PlayerEvents.tick(event => {
     if (isFallFlying[player.name]) {
         player.startFallFlying()
         if (player.sprinting) {
-            player.sendData('useFireworks')
+            // player.sendData('useFireworks')
+            FireRocket(player.uuid, event)
         }
     }
 
@@ -49,7 +54,13 @@ PlayerEvents.tick(event => {
     player.onUpdateAbilities()
 })
 
-// Fonction pour convertir degrés en radians
-Math.radians = function(degrees) {
-    return degrees * Math.PI / 180;
-};
+
+function FireRocket(uuid, event) {
+    const player = event.server.getPlayerList().getPlayer(uuid);
+
+    if (player == null)
+        return;
+
+    const itemstack = new ItemStack(Items.FIREWORK_ROCKET, 64);
+    player.level.addFreshEntity(new FireworkRocketEntity(player.level, itemstack, player));
+}

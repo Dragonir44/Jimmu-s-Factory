@@ -19,30 +19,30 @@ PlayerEvents.tick(event => {
         }
     }
     
-    if (hasRing[player.name] && !player.onGround() && !isFallFlying[player.name] && !player.abilities.flying) {
-        event.server.scheduleInTicks(2, () => {
-            if (player.fallDistance > 0.0 && Client.isKeyDown(32)) {
-                event.server.scheduleInTicks(1, () => {
-                    if (!Client.isKeyDown(32)) {
-                        isFallFlying[player.name] = true
-                    }
-                })
-            }
-        })
+    // if (hasRing[player.name] && !player.onGround() && !isFallFlying[player.name] && !player.abilities.flying) {
+    //     event.server.scheduleInTicks(2, () => {
+    //         if (player.fallDistance > 0.0 && Client.isKeyDown(32)) {
+    //             event.server.scheduleInTicks(1, () => {
+    //                 if (!Client.isKeyDown(32)) {
+    //                     isFallFlying[player.name] = true
+    //                 }
+    //             })
+    //         }
+    //     })
         
-    }
-    else if (!hasRing[player.name] || player.onGround() || player.abilities.flying) {
-        isFallFlying[player.name] = false
-        player.stopFallFlying()
-    }
+    // }
+    // else if (!hasRing[player.name] || player.onGround() || player.abilities.flying) {
+    //     isFallFlying[player.name] = false
+    //     player.stopFallFlying()
+    // }
     
-    if (isFallFlying[player.name]) {
-        player.startFallFlying()
-        if (player.sprinting) {
-            // player.sendData('useFireworks')
-            FireRocket(player.uuid, event)
-        }
-    }
+    // if (isFallFlying[player.name]) {
+    //     player.startFallFlying()
+    //     if (player.sprinting) {
+    //         // player.sendData('useFireworks')
+    //         FireRocket(player.uuid, event)
+    //     }
+    // }
 
     if (!inventory.contains('kubejs:ascended_flight_ring') && hasRing[player.name]) {
         if (player.gameMode != 'creative' && player.abilities.mayfly) {
@@ -55,12 +55,12 @@ PlayerEvents.tick(event => {
 })
 
 
-function FireRocket(uuid, event) {
-    const player = event.server.getPlayerList().getPlayer(uuid);
+// function FireRocket(uuid, event) {
+//     const player = event.server.getPlayerList().getPlayer(uuid);
 
-    if (player == null)
-        return;
+//     if (player == null)
+//         return;
 
-    const itemstack = new ItemStack(Items.FIREWORK_ROCKET, 64);
-    player.level.addFreshEntity(new FireworkRocketEntity(player.level, itemstack, player));
-}
+//     const itemstack = new ItemStack(Items.FIREWORK_ROCKET, 64);
+//     player.level.addFreshEntity(new FireworkRocketEntity(player.level, itemstack, player));
+// }

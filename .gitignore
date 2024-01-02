@@ -7,6 +7,7 @@
 !*/config/advancementplaques-common.toml
 !*/config/blue_skies-client.toml
 !*/config/epicfight-client.toml
+!*/config/ironjetpacks/**
 !*/config/packmenu.cfg
 !*/config/supplementaries*.toml
 !*/config/vampirism-common.toml

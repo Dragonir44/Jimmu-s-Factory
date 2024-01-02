@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "kubejs:item/baton_de_la_verite",
-		"particle": "kubejs:item/baton_de_la_verite"
+		"0": "jimmus_factory:item/baton_de_la_verite",
+		"particle": "jimmus_factory:item/baton_de_la_verite"
 	},
 	"elements": [
 		{

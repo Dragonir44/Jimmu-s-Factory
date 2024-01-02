@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "kubejs:item/cosmic_blade",
-		"particle": "kubejs:item/cosmic_blade"
+		"0": "jimmus_factory:item/cosmic_blade",
+		"particle": "jimmus_factory:item/cosmic_blade"
 	},
 	"elements": [
 		{

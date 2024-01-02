@@ -6,6 +6,7 @@ StartupEvents.registry('block', e => {
         .hardness(5)
         .resistance(1.0)
         .requiresTool(true)
+        .textureAll("jimmus_factory:block/charcoal_block")
         .tagBlock("forge:blocks/charcoal")
         .tagBlock("minecraft:mineable/pickaxe")
 })

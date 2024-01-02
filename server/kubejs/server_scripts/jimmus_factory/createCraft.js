@@ -15,4 +15,14 @@ ServerEvents.recipes(e => {
 		'minecraft:bucket', 
 		Fluid.of('createchromaticreturn:shadow_essence', 1000)
 	], 'createchromaticreturn:shadow_essence_bucket')
+
+	e.recipes.createEmptying([
+		'minecraft:bucket', 
+		Fluid.of('create_things_and_misc:diluted_bonemeal', 1000)
+	], 'kubejs:diluted_bonemeal_bucket')
+
+	e.recipes.createFilling('kubejs:diluted_bonemeal_bucket', [
+		'minecraft:bucket',
+		Fluid.of('create_things_and_misc:diluted_bonemeal', 1000),
+	])
 })

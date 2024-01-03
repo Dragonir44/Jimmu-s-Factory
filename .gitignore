@@ -9,6 +9,7 @@
 !*/config/cumulus_menus-client.toml
 !*/config/epicfight-client.toml
 !*/config/ironjetpacks/**
+!*/config/inventoryhud-client.toml
 !*/config/packmenu.cfg
 !*/config/supplementaries*.toml
 !*/config/vampirism-common.toml

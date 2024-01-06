@@ -1,0 +1,271 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  minimummcversion = 1.20.1
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = assets/packmenu/textures/gui/background.png
+  action = texturizebackground
+}
+
+customization {
+  baseheight = 1351
+  action = autoscale
+  basewidth = 2560
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = 3
+  action = movebutton
+  y = -40
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = assets/packmenu/textures/gui/buttons_hovered.png
+  backgroundnormal = assets/packmenu/textures/gui/buttons.png
+}
+
+customization {
+  identifier = %id=9764%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = mid-centered
+  x = -126
+  action = movebutton
+  y = -27
+}
+
+customization {
+  identifier = %id=376322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = assets/packmenu/textures/gui/buttons_hovered.png
+  backgroundnormal = assets/packmenu/textures/gui/buttons.png
+}
+
+customization {
+  identifier = %id=97641%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = -101
+  action = movebutton
+  y = 10
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 203
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = assets/packmenu/textures/gui/buttons_hovered.png
+  backgroundnormal = assets/packmenu/textures/gui/buttons.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -40
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = assets/packmenu/textures/gui/buttons_hovered.png
+  backgroundnormal = assets/packmenu/textures/gui/buttons.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=976411%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = -425
+  action = movebutton
+  y = -23
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = 3
+  action = movebutton
+  y = -16
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = assets/packmenu/textures/gui/buttons_hovered.png
+  backgroundnormal = assets/packmenu/textures/gui/buttons.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -425
+  action = movebutton
+  y = -55
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 293
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 944c191c-2487-4112-ae60-f4c1aa2d46331704540386638
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 094f6b90-a898-4eb6-a25f-cc8754953cc51704540386648
+  y = 409
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 624
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 35f6d99d-6f67-43de-afb0-58e6bf3b95241704540386648
+  y = 430
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 529
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 4328fafc-0433-403b-93ac-08fd5f5cfd8c1704540386648
+  y = 212
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 289
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 291f0894-abe0-4059-83ec-a2f2f273c4581704540386648
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 598bccd6-fcff-4bf7-aa54-537e43826f9d1704540386648
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = joinserver;node2.team-project.fr:25565%btnaction_splitter_fm%
+  backgroundhovered = assets/packmenu/textures/gui/buttons_hovered.png
+  description = Server is under whitelist
+  label = Connect to Jimmu's Factory server
+  loopbackgroundanimations = true
+  x = -99
+  width = 200
+  action = addbutton
+  actionid = a3b48a44-6881-41f8-9cad-ca8505373d5a1704540484127
+  y = -63
+  backgroundnormal = assets/packmenu/textures/gui/buttons.png
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -16
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = assets/packmenu/textures/gui/buttons_hovered.png
+  backgroundnormal = assets/packmenu/textures/gui/buttons.png
+}
+

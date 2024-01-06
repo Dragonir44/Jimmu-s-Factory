@@ -1,0 +1,10 @@
+{
+	"x": -100,
+	"y": 0,
+	"width": 200,
+	"height": 20,
+	"texture": "packmenu:textures/gui/widgets.png",
+	"langKey": "packmenu.connect_server_button",
+	"action": "CONNECT_TO_SERVER",
+	"data": "node2.team-project.fr:25565"
+}

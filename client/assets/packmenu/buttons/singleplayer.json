@@ -1,0 +1,12 @@
+{
+	"x": 2,
+	"y": 24,
+	"width": 98,
+	"height": 20,
+	"langKey": "menu.singleplayer",
+	"texture": "packmenu:textures/gui/widgets.png",
+	"texWidth": 256,
+	"texHeight": 256,
+	"action": "OPEN_GUI",
+	"data": "SINGLEPLAYER"
+}

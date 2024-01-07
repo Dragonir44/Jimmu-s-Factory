@@ -5,7 +5,7 @@ autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:false
+enableVsync:true
 entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
@@ -13,7 +13,7 @@ invertYMouse:false
 realmsNotifications:true
 reducedDebugInfo:false
 showSubtitles:false
-directionalAudio:true
+directionalAudio:false
 touchscreen:false
 fullscreen:false
 bobView:true
@@ -34,7 +34,7 @@ gamma:1.0
 renderDistance:12
 simulationDistance:12
 entityDistanceScaling:1.0
-guiScale:2
+guiScale:3
 particles:0
 maxFps:120
 graphicsMode:1
@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","mod_resources","builtin/towntalk","Moonlight Mods Dynamic Assets"]
+incompatibleResourcePacks:["builtin/towntalk"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -53,7 +53,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -84,16 +84,16 @@ onlyShowSecureChat:false
 panoramaScrollSpeed:1.0
 telemetryOptInExtra:false
 onboardAccessibility:false
-soundCategory_master:0.4966887417218543
+soundCategory_master:0.47183098591549294
 soundCategory_music:0.0
-soundCategory_record:0.45774647887323944
-soundCategory_weather:0.45422535211267606
-soundCategory_block:0.4894366197183099
-soundCategory_hostile:0.5070422535211268
-soundCategory_neutral:0.4859154929577465
-soundCategory_player:0.5140845070422535
-soundCategory_ambient:0.4753521126760563
-soundCategory_voice:0.5070422535211268
+soundCategory_record:0.4753521126760563
+soundCategory_weather:0.4894366197183099
+soundCategory_block:0.4823943661971831
+soundCategory_hostile:0.45774647887323944
+soundCategory_neutral:0.5211267605633803
+soundCategory_player:0.4964788732394366
+soundCategory_ambient:0.545774647887324
+soundCategory_voice:0.4964788732394366
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true

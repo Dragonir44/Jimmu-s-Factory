@@ -1,6 +1,5 @@
 ServerEvents.recipes(event => {
     
-
     // The ultimate ingot
     event.custom({
         type: 'extendedcrafting:shapeless_table',

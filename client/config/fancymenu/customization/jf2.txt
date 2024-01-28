@@ -9,7 +9,7 @@ customization-meta {
 }
 
 customization {
-  path = assets/packmenu/textures/gui/background.png
+  path = assets/textures/gui/background.png
   action = texturizebackground
 }
 
@@ -38,8 +38,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = assets/packmenu/textures/gui/buttons_hovered.png
-  backgroundnormal = assets/packmenu/textures/gui/buttons.png
+  backgroundhovered = assets/textures/gui/buttons_hovered.png
+  backgroundnormal = assets/textures/gui/buttons.png
 }
 
 customization {
@@ -80,8 +80,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = assets/packmenu/textures/gui/buttons_hovered.png
-  backgroundnormal = assets/packmenu/textures/gui/buttons.png
+  backgroundhovered = assets/textures/gui/buttons_hovered.png
+  backgroundnormal = assets/textures/gui/buttons.png
 }
 
 customization {
@@ -104,22 +104,13 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = assets/packmenu/textures/gui/buttons_hovered.png
-  backgroundnormal = assets/packmenu/textures/gui/buttons.png
+  backgroundhovered = assets/textures/gui/buttons_hovered.png
+  backgroundnormal = assets/textures/gui/buttons.png
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  action = setbuttontexture
-  backgroundhovered = assets/packmenu/textures/gui/buttons_hovered.png
-  backgroundnormal = assets/packmenu/textures/gui/buttons.png
 }
 
 customization {
@@ -138,7 +129,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = mid-centered
-  x = 2
+  x = 3
   action = movebutton
   y = 30
 }
@@ -148,8 +139,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = assets/packmenu/textures/gui/buttons_hovered.png
-  backgroundnormal = assets/packmenu/textures/gui/buttons.png
+  backgroundhovered = assets/textures/gui/buttons_hovered.png
+  backgroundnormal = assets/textures/gui/buttons.png
 }
 
 customization {
@@ -173,8 +164,16 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = assets/packmenu/textures/gui/buttons_hovered.png
-  backgroundnormal = assets/packmenu/textures/gui/buttons.png
+  backgroundhovered = assets/textures/gui/buttons_hovered.png
+  backgroundnormal = assets/textures/gui/buttons.png
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = mid-left
+  x = 0
+  action = movebutton
+  y = -63
 }
 
 customization {
@@ -249,7 +248,7 @@ customization {
   orientation = mid-centered
   restartbackgroundanimations = true
   buttonaction = joinserver;node2.team-project.fr:25565%btnaction_splitter_fm%
-  backgroundhovered = assets/packmenu/textures/gui/buttons_hovered.png
+  backgroundhovered = assets/textures/gui/buttons_hovered.png
   label = Connect to Jimmu's Factory server
   loopbackgroundanimations = true
   x = -101
@@ -257,7 +256,7 @@ customization {
   action = addbutton
   actionid = c0a4957b-1efc-4b82-bbe6-0281c7ba46121704559335331
   y = -19
-  backgroundnormal = assets/packmenu/textures/gui/buttons.png
+  backgroundnormal = assets/textures/gui/buttons.png
   height = 20
 }
 

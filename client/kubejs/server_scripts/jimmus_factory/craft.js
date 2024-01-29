@@ -170,10 +170,4 @@ ServerEvents.recipes(event => {
             "kubejs:charcoal_block"
         ]
     )
-    event.shapeless(
-        Item.of("kubejs:charcoal_block", 1),
-        [
-            "9x minecraft:charcoal"
-        ]
-    )
 })

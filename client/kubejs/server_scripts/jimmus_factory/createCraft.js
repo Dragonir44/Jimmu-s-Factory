@@ -34,7 +34,7 @@ ServerEvents.recipes(e => {
 		"MNCNM"
 	],{
 		N: 'minecraft:netherite_block',
-		M: 'createchromaticreturn:multiplite_ingot',
+		M: 'extendedcrafting:the_ultimate_ingot',
 		R: 'createchromaticreturn:refined_mechanism',
 		W: 'cyclic:crate',
 		C: 'createchromaticreturn:creative_flour'
@@ -48,10 +48,40 @@ ServerEvents.recipes(e => {
 		"MNFNM"
 	],{
 		N: 'minecraft:netherite_block',
-		M: 'createchromaticreturn:multiplite_ingot',
+		M: 'extendedcrafting:the_ultimate_ingot',
 		R: 'createchromaticreturn:refined_mechanism',
 		T: 'create:fluid_tank',
 		F: 'create_sa:creative_filling_tank'
+	})
+
+	e.remove({output: 'create:creative_motor', type: "create:mechanical_crafting"})
+
+	e.recipes.createMechanicalCrafting('create:creative_motor', [
+		"MNFNM",
+		"NNRNN",
+		"NRTRN",
+		"NNRNN",
+		"MNTNM"
+	],{
+		N: 'minecraft:netherite_block',
+		M: 'extendedcrafting:the_ultimate_ingot',
+		R: 'createchromaticreturn:refined_mechanism',
+		T: 'create:shaft',
+		F: 'create:rotation_speed_controller'
+	})
+
+	e.recipes.createMechanicalCrafting('createcasing:creative_cogwheel', [
+		"MNFNM",
+		"NNRNN",
+		"NRTRN",
+		"NNRNN",
+		"MNFNM"
+	],{
+		N: 'minecraft:netherite_block',
+		M: 'extendedcrafting:the_ultimate_ingot',
+		R: 'createchromaticreturn:refined_mechanism',
+		T: 'create:cogwheel',
+		F: 'create:rotation_speed_controller'
 	})
 
 	e.recipes.createMechanicalCrafting('create:handheld_worldshaper', [

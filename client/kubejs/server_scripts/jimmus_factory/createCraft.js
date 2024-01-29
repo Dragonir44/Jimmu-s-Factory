@@ -54,6 +54,23 @@ ServerEvents.recipes(e => {
 		F: 'create_sa:creative_filling_tank'
 	})
 
+	e.remove({output: 'createaddition:creative_energy', type: "create:mechanical_crafting"})
+
+	e.recipes.createMechanicalCrafting('createaddition:creative_energy', [
+		"MNFNM",
+		"NNRNN",
+		"NRERN",
+		"NNRNN",
+		"MNTNM"
+	],{
+		N: 'minecraft:netherite_block',
+		M: 'extendedcrafting:the_ultimate_ingot',
+		R: 'createchromaticreturn:refined_mechanism',
+		T: 'create:shaft',
+		F: 'create:creative_motor',
+		E: 'createaddition:alternator'
+	})
+
 	e.remove({output: 'create:creative_motor', type: "create:mechanical_crafting"})
 
 	e.recipes.createMechanicalCrafting('create:creative_motor', [

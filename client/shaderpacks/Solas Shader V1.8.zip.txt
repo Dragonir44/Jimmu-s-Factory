@@ -1,0 +1,8 @@
+#Sun Feb 04 11:37:26 CET 2024
+shadowDistance=512.0
+shadowMapResolution=3072
+VF_NETHER_SAMPLES=12
+ENTITY_SHADOWS=true
+AO=true
+VC_DISTANCE=700.0
+VL_SAMPLES=16

@@ -1,6 +1,6 @@
 *
 !*/
-!*/config/apotheosis/*
+# !*/config/apotheosis/*
 !*/config/defaultoptions/*
 !*/config/extendedcrafting/**
 !*/config/fancymenu/**
@@ -13,7 +13,7 @@
 !*/config/inventoryhud-client.toml
 !*/config/packmenu.cfg
 !*/config/supplementaries*.toml
-!*/config/vampirism-common.toml
+!*/config/waystones-common.toml
 !*/defaultconfigs/*
 !client/fancymenu*/**
 !client/assets/**

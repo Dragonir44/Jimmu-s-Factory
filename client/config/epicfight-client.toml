@@ -11,10 +11,10 @@
 	enable_laser_pointer = true
 	camera_auto_switch = true
 	auto_preparation = true
-	off_gore = false
 	no_mining_in_combat = true
 	battle_autoswitch_items = []
 	mining_autoswitch_items = []
+	blood_effects = true
 
 	[ingame.ui]
 		stamina_bar_x = 120

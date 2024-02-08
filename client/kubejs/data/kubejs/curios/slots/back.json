@@ -1,6 +1,6 @@
 {
-    "replace": false,
-    "size": 1,
+    "replace": true,
+    "size": 2,
     "operation": "SET",
     "order": 100,
     "icon": "curios:slot/empty_back_slot",

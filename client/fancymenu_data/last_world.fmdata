@@ -1,7 +1,7 @@
 type = last_world
 
 last_world {
-  is_server = true
-  world = localhost:25565
+  is_server = false
+  world = D:/curseforge/minecraft/Instances/Dev - Jimmu's Factory 2/saves/New World (1)
 }
 

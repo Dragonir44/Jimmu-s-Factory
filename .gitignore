@@ -15,9 +15,16 @@
 !*/config/supplementaries*.toml
 !*/config/waystones-common.toml
 !*/defaultconfigs/*
+!*/kubejs/**!server/libraries/*
 !client/fancymenu*/**
 !client/assets/**
-!*/kubejs/**
+!*/mods/*
+!*/packmenu/*
+!*/shaderpacks/*
+!*/.curseclient
+!*/minecraftinstance.json
+!*/servers.dat
+!.gitattributes
 server/mods/AmbientSounds*
 server/mods/BetterAdvancements*
 server/mods/Controlling*
@@ -26,16 +33,10 @@ server/mods/eatinganimation*
 server/mods/Fallingleaves*
 server/mods/FpsReducer2*
 server/mods/occulus*
-server/mods/rubidium*
+server/mods/embeddium*
 server/mods/ToastControl*
 server/mods/watermedia*
 server/mods/waveycapes*
-!server/libraries/*
-!*/mods/*
-!*/packmenu/*
-!*/shaderpacks/*
-!*/.curseclient
-!*/minecraftinstance.json
-!*/servers.dat
+
 
 temp/

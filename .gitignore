@@ -8,7 +8,8 @@
 !*/config/advancementplaques-common.toml
 !*/config/blue_skies-client.toml
 !*/config/cumulus_menus-client.toml
-!*/config/epicfight-client.toml
+!*/config/epicfight*.toml
+!*/config/epic_fight*.toml
 !*/config/ironjetpacks/**
 !*/config/inventoryhud-client.toml
 !*/config/packmenu.cfg

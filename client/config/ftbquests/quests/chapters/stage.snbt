@@ -1,0 +1,67 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stage"
+	group: ""
+	icon: "ftbquests:book"
+	id: "2E072C5B6A01189A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "create:cogwheel"
+			id: "25D28531CF6743E3"
+			rewards: [{
+				auto: "invisible"
+				icon: "create:cogwheel"
+				id: "13A926603CD0B2AC"
+				ignore_reward_blocking: true
+				stage: "create"
+				title: "Unlock Create craft"
+				type: "gamestage"
+			}]
+			tasks: [{
+				icon: { Count: 64b, id: "minecraft:andesite" }
+				id: "0D0F0FF9D972D2CE"
+				stage: ""
+				tags: [""]
+				title: "Give a stack of andesite"
+				type: "gamestage"
+			}]
+			title: "Create"
+			x: -14.0d
+			y: -2.5d
+		}
+		{
+			icon: "mekanism:alloy_infused"
+			id: "2A0242E4E60A6037"
+			rewards: [{
+				auto: "invisible"
+				icon: "mekanism:alloy_infused"
+				id: "2D11DA89DD066094"
+				ignore_reward_blocking: true
+				stage: "mekanism"
+				title: "Unlock Mekanism craft"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					icon: { Count: 64b, id: "mekanism:tin_ore" }
+					id: "4B65B2761FD5DBD3"
+					title: "Give a stack of tin ore"
+					type: "custom"
+				}
+				{
+					count: 64L
+					id: "062EBF469B57DDEA"
+					item: { Count: 64b, id: "mekanism:osmium_ore" }
+					type: "item"
+				}
+			]
+			title: "Mekanism"
+			x: -12.0d
+			y: -2.5d
+		}
+	]
+	title: "Stage"
+}

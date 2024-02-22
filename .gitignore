@@ -4,6 +4,7 @@
 !*/config/defaultoptions/*
 !*/config/extendedcrafting/**
 !*/config/fancymenu/**
+!*/config/ftbquests/**
 !*/config/aether-client.toml
 !*/config/advancementplaques-common.toml
 !*/config/blue_skies-client.toml

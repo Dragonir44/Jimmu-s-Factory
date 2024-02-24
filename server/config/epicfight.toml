@@ -6,10 +6,10 @@
 	hasFallAnimation = true
 	disapleEntityUI = false
 	stiffComboAttacks = true
+	noMobsInBossfight = true
 	#Range: 0 ~ 100
 	weightPenalty = 100
 	canSwitchCombat = true
-	noMobsInBossfight = true
 
 [loot]
 	#Range: -100 ~ 100

@@ -32,14 +32,21 @@
 					type: "command"
 				}
 			]
-			tasks: [{
-				icon: { Count: 64b, id: "minecraft:andesite" }
-				id: "0D0F0FF9D972D2CE"
-				stage: ""
-				tags: [""]
-				title: "Give a stack of andesite"
-				type: "gamestage"
-			}]
+			tasks: [
+				{
+					icon: { Count: 64b, id: "minecraft:andesite" }
+					id: "0D0F0FF9D972D2CE"
+					stage: ""
+					tags: [""]
+					title: "Give a stack of andesite"
+					type: "gamestage"
+				}
+				{
+					id: "6A481559A47F9159"
+					item: "create:raw_zinc"
+					type: "item"
+				}
+			]
 			title: "Create"
 			x: -7.5d
 			y: -11.0d
@@ -61,13 +68,13 @@
 				{
 					count: 64L
 					id: "062EBF469B57DDEA"
-					item: { Count: 64b, id: "mekanism:osmium_ore" }
+					item: "mekanism:raw_osmium"
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "4E88D26447A41AC1"
-					item: { Count: 64b, id: "mekanism:tin_ore" }
+					item: "mekanism:raw_tin"
 					type: "item"
 				}
 			]

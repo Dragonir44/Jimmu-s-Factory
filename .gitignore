@@ -27,6 +27,8 @@
 !*/minecraftinstance.json
 !*/servers.dat
 !.gitattributes
+!exclude.txt
+!exportClientToServer.bat
 server/mods/AmbientSounds*
 server/mods/BetterAdvancements*
 server/mods/Controlling*

@@ -1,0 +1,302 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stage"
+	group: ""
+	icon: "ftbquests:book"
+	id: "2E072C5B6A01189A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "create:cogwheel"
+			id: "25D28531CF6743E3"
+			rewards: [
+				{
+					auto: "invisible"
+					icon: "create:cogwheel"
+					id: "13A926603CD0B2AC"
+					ignore_reward_blocking: true
+					stage: "create"
+					title: "Unlock Create's craft"
+					type: "gamestage"
+				}
+				{
+					command: "/gamestage add @p create false"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "create:cogwheel"
+					id: "66D803C4AA6ED240"
+					silent: true
+					title: "Unlock Create's craft"
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					icon: { Count: 64b, id: "minecraft:andesite" }
+					id: "0D0F0FF9D972D2CE"
+					stage: ""
+					tags: [""]
+					title: "Give a stack of andesite"
+					type: "gamestage"
+				}
+				{
+					id: "6A481559A47F9159"
+					item: "create:raw_zinc"
+					type: "item"
+				}
+			]
+			title: "Create"
+			x: -7.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["25D28531CF6743E3"]
+			icon: "mekanism:alloy_infused"
+			id: "2A0242E4E60A6037"
+			rewards: [{
+				auto: "invisible"
+				icon: "mekanism:alloy_infused"
+				id: "2D11DA89DD066094"
+				ignore_reward_blocking: true
+				stage: "mekanism"
+				title: "Unlock Mekanism's craft"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "062EBF469B57DDEA"
+					item: "mekanism:raw_osmium"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "4E88D26447A41AC1"
+					item: "mekanism:raw_tin"
+					type: "item"
+				}
+			]
+			title: "Mekanism"
+			x: -4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["25D28531CF6743E3"]
+			icon: "ars_nouveau:novice_spell_book"
+			id: "3E86644D259DD731"
+			rewards: [{
+				auto: "invisible"
+				icon: "ars_nouveau:novice_spell_book"
+				id: "1CCE785F9D050A1D"
+				ignore_reward_blocking: true
+				stage: "ars_nouveau"
+				title: "Unlock Ars Nouveau's craft"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 64L
+				id: "4F4797AA7C559F61"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			title: "Ars Nouveau"
+			x: -10.5d
+			y: -10.0d
+		}
+		{
+			id: "78FA766F2A9E2B3D"
+			rewards: [{
+				auto: "invisible"
+				icon: "structurize:sceptergold"
+				id: "7B489344471F2EAC"
+				ignore_reward_blocking: true
+				stage: "minecolonie"
+				title: "Unlock Minecolonie's craft"
+				type: "gamestage"
+			}]
+			tasks: [{
+				id: "7D6B076C90063A20"
+				item: "minecolonies:blockhuttownhall"
+				type: "item"
+			}]
+			title: "Minecolonie"
+			x: -16.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["2A0242E4E60A6037"]
+			id: "4B753C92391BE677"
+			rewards: [{
+				auto: "invisible"
+				icon: "bigreactors:basic_reactorcontroller"
+				id: "3D606C895CA50A92"
+				ignore_reward_blocking: true
+				stage: "extrem_reactor"
+				title: "Unlock Extreme Reactors's craft"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 64L
+				id: "1801982EC09829E2"
+				item: { Count: 64b, id: "bigreactors:yellorite_ore" }
+				type: "item"
+			}]
+			title: "Extreme Reactors"
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["25D28531CF6743E3"]
+			id: "52A155A0EA875AE1"
+			rewards: [{
+				auto: "invisible"
+				icon: "mna:guide_book"
+				id: "325AC4997880E713"
+				ignore_reward_blocking: true
+				stage: "mna"
+				title: "Unlock Mana and Artifice's craft"
+				type: "gamestage"
+			}]
+			tasks: [{
+				count: 64L
+				id: "181C81D0A4FBB61C"
+				item: { Count: 64b, id: "mna:vinteum_ore" }
+				type: "item"
+			}]
+			title: "Mana and Artifice"
+			x: -10.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["25D28531CF6743E3"]
+			id: "18B6F38DD95F13F0"
+			rewards: [{
+				id: "7674D022C376563A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "5DCBFC6030801B57"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "66F2431D60667886"
+					item: "minecraft:pumpkin_seeds"
+					type: "item"
+				}
+				{
+					id: "1E221041D514C9F8"
+					item: "minecraft:melon_seeds"
+					type: "item"
+				}
+				{
+					id: "4B7AD2F2FEE60B72"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+				{
+					id: "5B13C9939F1BB51C"
+					item: "supplementaries:flax_seeds"
+					type: "item"
+				}
+			]
+			title: "Mystical Agriculture : seeds"
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["25D28531CF6743E3"]
+			id: "77C261BA4948EDBE"
+			rewards: [{
+				id: "74A77106F1EC27A1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "1EEF99E3E6C0FBB4"
+					item: { Count: 64b, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "088B601968984D85"
+					item: { Count: 64b, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "626ADFAB87C30A9C"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					id: "1F07E73473833557"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "47714C7CE3C084BF"
+					item: { Count: 64b, id: "mekanism:ingot_osmium" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "6D8CE0EF67F65437"
+					item: { Count: 64b, id: "mekanism:ingot_tin" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "091BE5A3C95E4A3D"
+					item: { Count: 64b, id: "mekanism:ingot_lead" }
+					type: "item"
+				}
+			]
+			title: "Mystical Agriculture : minerals"
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"18B6F38DD95F13F0"
+				"77C261BA4948EDBE"
+			]
+			icon: "mysticalagriculture:master_infusion_crystal"
+			id: "7850144E1CE49003"
+			rewards: [{
+				auto: "invisible"
+				icon: "mysticalagriculture:master_infusion_crystal"
+				id: "67207B4C92175C33"
+				ignore_reward_blocking: true
+				stage: "mystical"
+				title: "Unlock Mystical Agriculture's craft"
+				type: "gamestage"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "728723A4EFF2CFCB"
+					item: { Count: 64b, id: "mysticalagriculture:prosperity_shard" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "144B13F243CEB08D"
+					item: { Count: 64b, id: "mysticalagriculture:inferium_essence" }
+					type: "item"
+				}
+			]
+			title: "Mystical Agriculture"
+			x: -7.5d
+			y: -5.5d
+		}
+	]
+	title: "Stages"
+}

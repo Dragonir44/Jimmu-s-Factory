@@ -1,0 +1,16 @@
+AmbientSounds_FORGE_v5.3.9_mc1.20.1.jar
+BetterAdvancements-1.20.1-0.3.2.162.jar
+Controlling-forge-1.20.1-12.0.2.jar
+drippyloadingscreen_forge_3.0.1_MC_1.20.1.jar
+dynamiclightsreforged-1.20.1_v1.6.0.jar
+embeddium-0.3.5+mc1.20.1.jar
+embeddiumplus-1.20.1-v1.2.4.jar
+fancymenu_forge_3.1.0_MC_1.20.1.jar
+FpsReducer2-forge-1.20-2.5.jar
+LegendaryTooltips-1.20.1-forge-1.4.5.jar
+oculus-mc1.20.1-1.6.15a.jar
+probejs-5.9.3-forge.jar
+textrues_embeddium_options-0.1.5+mc1.20.1.jar
+ToastControl-1.20.1-8.0.3.jar
+watermedia-2.0.28.jar
+waveycapes-forge-1.4.3-mc1.20.1.jar

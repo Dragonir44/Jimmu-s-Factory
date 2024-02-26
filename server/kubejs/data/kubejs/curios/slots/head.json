@@ -1,0 +1,10 @@
+{
+    "replace": true,
+    "size": 2,
+    "operation": "SET",
+    "order": 50,
+    "icon": "curios:slot/empty_head_slot",
+    "add_cosmetic": false,
+    "use_native_gui": true,
+    "render_toggle": true
+}

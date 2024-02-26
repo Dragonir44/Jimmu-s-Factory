@@ -1,0 +1,3 @@
+MoreJSEvents.filterAvailableEnchantments(e => {
+    
+})

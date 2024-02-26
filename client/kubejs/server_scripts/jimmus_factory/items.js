@@ -1,5 +1,5 @@
 ItemEvents.firstRightClicked(e => {
-    // const {player} = e
+    const {player} = e
     // if (e.item.id == 'kubejs:bang') {
     //     player.addEffect(new MobEffectInstance('minecraft:absorption', 20*20, e.item.damageValue))
     //     e.item.damageValue++

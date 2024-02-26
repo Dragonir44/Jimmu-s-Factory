@@ -17,7 +17,8 @@
 !*/config/supplementaries*.toml
 !*/config/waystones-common.toml
 !*/defaultconfigs/*
-!*/kubejs/**!server/libraries/*
+!*/kubejs/**
+!server/libraries/*
 !client/fancymenu*/**
 !client/assets/**
 !*/mods/*

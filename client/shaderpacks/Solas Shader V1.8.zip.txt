@@ -1,4 +1,4 @@
-#Sun Feb 25 10:19:06 CET 2024
+#Mon Feb 26 15:23:07 CET 2024
 shadowDistance=512.0
 shadowMapResolution=3072
 VF_NETHER_SAMPLES=12

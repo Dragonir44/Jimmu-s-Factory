@@ -11,39 +11,25 @@
 		{
 			icon: "create:cogwheel"
 			id: "25D28531CF6743E3"
-			rewards: [
-				{
-					auto: "invisible"
-					icon: "create:cogwheel"
-					id: "13A926603CD0B2AC"
-					ignore_reward_blocking: true
-					stage: "create"
-					title: "Unlock Create's craft"
-					type: "gamestage"
-				}
-				{
-					command: "/gamestage add @p create false"
-					elevate_perms: true
-					exclude_from_claim_all: true
-					icon: "create:cogwheel"
-					id: "66D803C4AA6ED240"
-					silent: true
-					title: "Unlock Create's craft"
-					type: "command"
-				}
-			]
+			rewards: [{
+				command: "/gamestage add @p create"
+				elevate_perms: true
+				icon: "create:cogwheel"
+				id: "3299A7698D63699B"
+				title: "Unlock Create's craft"
+				type: "command"
+			}]
 			tasks: [
 				{
-					icon: { Count: 64b, id: "minecraft:andesite" }
-					id: "0D0F0FF9D972D2CE"
-					stage: ""
-					tags: [""]
-					title: "Give a stack of andesite"
-					type: "gamestage"
-				}
-				{
+					count: 64L
 					id: "6A481559A47F9159"
 					item: "create:raw_zinc"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "20E3C6DDC57D297F"
+					item: { Count: 64b, id: "minecraft:andesite" }
 					type: "item"
 				}
 			]
@@ -56,13 +42,12 @@
 			icon: "mekanism:alloy_infused"
 			id: "2A0242E4E60A6037"
 			rewards: [{
-				auto: "invisible"
+				command: "/gamestage add @p mekanism"
+				elevate_perms: true
 				icon: "mekanism:alloy_infused"
-				id: "2D11DA89DD066094"
-				ignore_reward_blocking: true
-				stage: "mekanism"
+				id: "791AAD8659C019CF"
 				title: "Unlock Mekanism's craft"
-				type: "gamestage"
+				type: "command"
 			}]
 			tasks: [
 				{
@@ -87,13 +72,12 @@
 			icon: "ars_nouveau:novice_spell_book"
 			id: "3E86644D259DD731"
 			rewards: [{
-				auto: "invisible"
+				command: "/gamestage add @p ars_nouveau"
+				elevate_perms: true
 				icon: "ars_nouveau:novice_spell_book"
-				id: "1CCE785F9D050A1D"
-				ignore_reward_blocking: true
-				stage: "ars_nouveau"
+				id: "233F42B42DC4E782"
 				title: "Unlock Ars Nouveau's craft"
-				type: "gamestage"
+				type: "command"
 			}]
 			tasks: [{
 				count: 64L
@@ -103,18 +87,17 @@
 			}]
 			title: "Ars Nouveau"
 			x: -10.5d
-			y: -10.0d
+			y: -11.0d
 		}
 		{
 			id: "78FA766F2A9E2B3D"
 			rewards: [{
-				auto: "invisible"
+				command: "/gamestage add @p minecolonie"
+				elevate_perms: true
 				icon: "structurize:sceptergold"
-				id: "7B489344471F2EAC"
-				ignore_reward_blocking: true
-				stage: "minecolonie"
-				title: "Unlock Minecolonie's craft"
-				type: "gamestage"
+				id: "622947CF7A707B86"
+				title: "Unlock Minecolonies's craft"
+				type: "command"
 			}]
 			tasks: [{
 				id: "7D6B076C90063A20"
@@ -129,13 +112,12 @@
 			dependencies: ["2A0242E4E60A6037"]
 			id: "4B753C92391BE677"
 			rewards: [{
-				auto: "invisible"
+				command: "/gamestage add @p bigreactors"
+				elevate_perms: true
 				icon: "bigreactors:basic_reactorcontroller"
-				id: "3D606C895CA50A92"
-				ignore_reward_blocking: true
-				stage: "extrem_reactor"
-				title: "Unlock Extreme Reactors's craft"
-				type: "gamestage"
+				id: "03BD2D595063EBBC"
+				title: "Unlock Big Reactor's craft"
+				type: "command"
 			}]
 			tasks: [{
 				count: 64L
@@ -143,7 +125,7 @@
 				item: { Count: 64b, id: "bigreactors:yellorite_ore" }
 				type: "item"
 			}]
-			title: "Extreme Reactors"
+			title: "Big Reactors"
 			x: -4.5d
 			y: -8.5d
 		}
@@ -151,13 +133,12 @@
 			dependencies: ["25D28531CF6743E3"]
 			id: "52A155A0EA875AE1"
 			rewards: [{
-				auto: "invisible"
+				command: "/gamestage add @p mna"
+				elevate_perms: true
 				icon: "mna:guide_book"
-				id: "325AC4997880E713"
-				ignore_reward_blocking: true
-				stage: "mna"
+				id: "2EFBDFD83C645DA1"
 				title: "Unlock Mana and Artifice's craft"
-				type: "gamestage"
+				type: "command"
 			}]
 			tasks: [{
 				count: 64L
@@ -167,7 +148,7 @@
 			}]
 			title: "Mana and Artifice"
 			x: -10.5d
-			y: -8.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["25D28531CF6743E3"]
@@ -271,13 +252,12 @@
 			icon: "mysticalagriculture:master_infusion_crystal"
 			id: "7850144E1CE49003"
 			rewards: [{
-				auto: "invisible"
+				command: "/gamestage add @p mysticalagriculture"
+				elevate_perms: true
 				icon: "mysticalagriculture:master_infusion_crystal"
-				id: "67207B4C92175C33"
-				ignore_reward_blocking: true
-				stage: "mystical"
-				title: "Unlock Mystical Agriculture's craft"
-				type: "gamestage"
+				id: "4F676120A019EDBE"
+				title: "Unlock Magical Agriculture's craft"
+				type: "command"
 			}]
 			tasks: [
 				{
@@ -296,6 +276,110 @@
 			title: "Mystical Agriculture"
 			x: -7.5d
 			y: -5.5d
+		}
+		{
+			dependencies: ["25D28531CF6743E3"]
+			icon: {
+				Count: 1b
+				id: "botania:lexicon"
+				tag: {
+					"botania:elven_unlock": 1b
+				}
+			}
+			id: "19C1D40494E3C250"
+			rewards: [{
+				command: "/gamestage add @p botania"
+				elevate_perms: true
+				icon: "botania:lexicon"
+				id: "4364145F654AB604"
+				title: "Unlock Botania's craft"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "6C33BD0B5DB838F5"
+					item: "botania:white_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "71AD7D0918D32FE0"
+					item: "botania:orange_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "5261168B7CF847BC"
+					item: "botania:magenta_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "7281907F904079F6"
+					item: "botania:light_blue_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "414089A1AC4F8492"
+					item: "botania:yellow_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "548A5D5F1A853E61"
+					item: "botania:lime_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "5AFC30809D0F9582"
+					item: "botania:pink_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "34D72772C4FB29C3"
+					item: "botania:gray_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "7CBC8F30E479FC72"
+					item: "botania:light_gray_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "5C1DB093F314E441"
+					item: "botania:cyan_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "6FD63C2C4E73548B"
+					item: "botania:purple_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "402CE6A5A1B6BFEB"
+					item: "botania:blue_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "155E44CCFCDB4FEE"
+					item: "botania:brown_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "2C6CF77A4BD1832C"
+					item: "botania:green_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "45662CEE8D4B9BD3"
+					item: "botania:red_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "5A8235EA40AFC6D2"
+					item: "botania:black_mystical_flower"
+					type: "item"
+				}
+			]
+			title: "Botania"
+			x: -10.5d
+			y: -9.0d
 		}
 	]
 	title: "Stages"

@@ -11,14 +11,22 @@
 		{
 			icon: "create:cogwheel"
 			id: "25D28531CF6743E3"
-			rewards: [{
-				command: "/gamestage add @p create"
-				elevate_perms: true
-				icon: "create:cogwheel"
-				id: "3299A7698D63699B"
-				title: "Unlock Create's craft"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/gamestage add @p create"
+					elevate_perms: true
+					icon: "create:cogwheel"
+					id: "3299A7698D63699B"
+					title: "Unlock Create's craft"
+					type: "command"
+				}
+				{
+					command: "/kubejs stages add @p create"
+					elevate_perms: true
+					id: "46BC97CDF9B4D882"
+					type: "command"
+				}
+			]
 			tasks: [
 				{
 					count: 64L
@@ -224,19 +232,28 @@
 				{
 					count: 64L
 					id: "47714C7CE3C084BF"
-					item: { Count: 64b, id: "mekanism:ingot_osmium" }
+					item: {
+						Count: 64b
+						id: "mekanism:ingot_osmium"
+					}
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "6D8CE0EF67F65437"
-					item: { Count: 64b, id: "mekanism:ingot_tin" }
+					item: {
+						Count: 64b
+						id: "mekanism:ingot_tin"
+					}
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "091BE5A3C95E4A3D"
-					item: { Count: 64b, id: "mekanism:ingot_lead" }
+					item: {
+						Count: 64b
+						id: "mekanism:ingot_lead"
+					}
 					type: "item"
 				}
 			]

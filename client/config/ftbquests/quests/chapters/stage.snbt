@@ -79,14 +79,22 @@
 			dependencies: ["25D28531CF6743E3"]
 			icon: "ars_nouveau:novice_spell_book"
 			id: "3E86644D259DD731"
-			rewards: [{
-				command: "/gamestage add @p ars_nouveau"
-				elevate_perms: true
-				icon: "ars_nouveau:novice_spell_book"
-				id: "233F42B42DC4E782"
-				title: "Unlock Ars Nouveau's craft"
-				type: "command"
-			}]
+			rewards: [
+				{
+					command: "/gamestage add @p ars_nouveau"
+					elevate_perms: true
+					icon: "ars_nouveau:novice_spell_book"
+					id: "233F42B42DC4E782"
+					title: "Unlock Ars Nouveau's craft"
+					type: "command"
+				}
+				{
+					command: "/kubejs stages add @p ars_nouveau"
+					elevate_perms: true
+					id: "52C5BC3F33AFC596"
+					type: "command"
+				}
+			]
 			tasks: [{
 				count: 64L
 				id: "4F4797AA7C559F61"
@@ -232,28 +240,19 @@
 				{
 					count: 64L
 					id: "47714C7CE3C084BF"
-					item: {
-						Count: 64b
-						id: "mekanism:ingot_osmium"
-					}
+					item: { Count: 64b, id: "mekanism:ingot_osmium" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "6D8CE0EF67F65437"
-					item: {
-						Count: 64b
-						id: "mekanism:ingot_tin"
-					}
+					item: { Count: 64b, id: "mekanism:ingot_tin" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "091BE5A3C95E4A3D"
-					item: {
-						Count: 64b
-						id: "mekanism:ingot_lead"
-					}
+					item: { Count: 64b, id: "mekanism:ingot_lead" }
 					type: "item"
 				}
 			]

@@ -28,8 +28,8 @@ JEIEvents.hideItems(event => {
     }
 })
 
-JEIEvents.removeRecipes(event => {
-    for(const hiddenItem of hiddenItems) {
-        event.remove(hiddenItem)
-    }
-})
+// JEIEvents.removeRecipes(event => {
+//     for(const hiddenItem of hiddenItems) {
+//         event.remove(hiddenItem)
+//     }
+// })

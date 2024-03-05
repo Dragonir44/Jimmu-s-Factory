@@ -1,57 +1,52 @@
 ServerEvents.recipes((event) => {
-    event.forEachRecipe({mod: "create", type: "crafting_shaped" || "crafting_shapeless"}, r => {
-        let recipes = r.json
+    event.stage({mod: 'create', type: 'crafting_shaped'}, 'create')
+    event.stage({mod: 'create', type: 'crafting_shapeless'}, 'create')
+    event.stage({mod: 'ars_nouveau', type: 'crafting_shaped'}, 'ars_nouveau')
+    event.stage({mod: 'ars_nouveau', type: 'crafting_shapeless'}, 'ars_nouveau')
+    event.stage({mod: 'mna', type: 'crafting_shaped'}, 'mna')
+    event.stage({mod: 'mna', type: 'crafting_shapeless'}, 'mna')
+    event.stage({mod: 'botania', type: 'crafting_shaped'}, 'botania')
+    event.stage({mod: 'botania', type: 'crafting_shapeless'}, 'botania')
+    event.stage({mod: 'mekanism', type: 'crafting_shaped'}, 'mekanism')
+    event.stage({mod: 'mekanism', type: 'crafting_shapeless'}, 'mekanism')
+    event.stage({mod: 'bigreactors', type: 'crafting_shaped'}, 'bigreactors')
+    event.stage({mod: 'bigreactors', type: 'crafting_shapeless'}, 'bigreactors')
+    event.stage({mod: 'mysticalagriculture', type: 'crafting_shaped'}, 'mysticalagriculture')
+    event.stage({mod: 'mysticalagriculture', type: 'crafting_shapeless'}, 'mysticalagriculture')
+    event.stage({mod: 'minecolonies', type: 'crafting_shaped'}, 'minecolonies')
+    event.stage({mod: 'minecolonies', type: 'crafting_shapeless'}, 'minecolonies')
+})
 
-        recipes.addProperty("type", r.getType() == "minecraft:crafting_shaped" ? "kubejs:shaped" : r.getType() == "minecraft:crafting_shapeless" ? "kubejs:shapeless" : null)
-        
-        event.custom(recipes).id(r.getId()).stage("create")
-    })
+const modsWithCraftingTable = [
+    'com.refinedmods.refinedstorage',
+    'net.p3pp3rf1y.sophisticatedcore',
+    'com.lothrazar.storagenetwork',
+    'com.tom.storagemod.network',
+    'mekanism.api'
+]
 
-    event.forEachRecipe({mod: 'ars_nouveau'}, r => {
-        let recipes = r.json
-
-        recipes.addProperty("type", r.getType() == "minecraft:crafting_shaped" ? "kubejs:shaped" : r.getType() == "minecraft:crafting_shapeless" ? "kubejs:shapeless" : null)
-
-        event.custom(recipes).id(r.getId()).stage("ars_nouveau")
-    })
-
-    event.forEachRecipe({mod: 'mna'}, r => {
-        let recipes = r.json
-        
-        recipes.addProperty("type", r.getType() == "minecraft:crafting_shaped" ? "kubejs:shaped" : r.getType() == "minecraft:crafting_shapeless" ? "kubejs:shapeless" : null)
-
-        event.custom(recipes).id(r.getId()).stage("mna")
-    })
-
-    event.forEachRecipe({mod: 'botania'}, r => {
-        let recipes = r.json
-
-        recipes.addProperty("type", r.getType() == "minecraft:crafting_shaped" ? "kubejs:shaped" : r.getType() == "minecraft:crafting_shapeless" ? "kubejs:shapeless" : null)
-
-        event.custom(recipes).id(r.getId()).stage("botania")
-    })
-
-    event.forEachRecipe({mod: 'mekanism'}, r => {
-        let recipes = r.json
-
-        recipes.addProperty("type", r.getType() == "minecraft:crafting_shaped" ? "kubejs:shaped" : r.getType() == "minecraft:crafting_shapeless" ? "kubejs:shapeless" : null)
-
-        event.custom(recipes).id(r.getId()).stage("mekanism")
-    })
-
-    event.forEachRecipe({mod: 'bigreactors'}, r => {
-        let recipes = r.json
-
-        recipes.addProperty("type", r.getType() == "minecraft:crafting_shaped" ? "kubejs:shaped" : r.getType() == "minecraft:crafting_shapeless" ? "kubejs:shapeless" : null)
-
-        event.custom(recipes).id(r.getId()).stage("bigreactors")
-    })
-
-    event.forEachRecipe({mod: 'mysticalagriculture'}, r => {
-        let recipes = r.json
-
-        recipes.addProperty("type", r.getType() == "minecraft:crafting_shaped" ? "kubejs:shaped" : r.getType() == "minecraft:crafting_shapeless" ? "kubejs:shapeless" : null)
-
-        event.custom(recipes).id(r.getId()).stage("mysticalagriculture")
-    })
+ServerEvents.commandRegistry(event => {
+    event.register(event.getCommands().literal('sync_recipe_stages')
+        .executes(function (command) {
+            var player_stages = command.getSource().getEntity().getStages().getAll()
+            var all_stages = Java.loadClass('com.blamejared.recipestages.RecipeStages').PACKAGE_STAGES;
+            for (var mod of modsWithCraftingTable) {
+                all_stages.putIfAbsent(mod, Java.loadClass("java.util.HashSet")())
+                var mod_stages = all_stages[mod]
+                mod_stages.clear()
+                mod_stages.addAll(player_stages)
+            }
+            return 1
+        })
+    )
+    event.register(event.getCommands().literal('add_recipe_stages')
+        .executes(function (command) {
+            var player_stages = command.getSource().getEntity().getStages().getAll()
+            var all_stages = Java.loadClass('com.blamejared.recipestages.RecipeStages').PACKAGE_STAGES;
+            all_stages.putIfAbsent('com.refinedmods.refinedstorage', Java.loadClass("java.util.HashSet")())
+            var rs_stages = all_stages['com.refinedmods.refinedstorage'];
+            rs_stages.addAll(player_stages)
+            return 1
+        })
+    )
 })

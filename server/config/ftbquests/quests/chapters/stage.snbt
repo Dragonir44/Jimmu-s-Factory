@@ -79,22 +79,14 @@
 			dependencies: ["25D28531CF6743E3"]
 			icon: "ars_nouveau:novice_spell_book"
 			id: "3E86644D259DD731"
-			rewards: [
-				{
-					command: "/gamestage add @p ars_nouveau"
-					elevate_perms: true
-					icon: "ars_nouveau:novice_spell_book"
-					id: "233F42B42DC4E782"
-					title: "Unlock Ars Nouveau's craft"
-					type: "command"
-				}
-				{
-					command: "/kubejs stages add @p ars_nouveau"
-					elevate_perms: true
-					id: "52C5BC3F33AFC596"
-					type: "command"
-				}
-			]
+			rewards: [{
+				command: "/gamestage add @p ars_nouveau"
+				elevate_perms: true
+				icon: "ars_nouveau:novice_spell_book"
+				id: "233F42B42DC4E782"
+				title: "Unlock Ars Nouveau's craft"
+				type: "command"
+			}]
 			tasks: [{
 				count: 64L
 				id: "4F4797AA7C559F61"

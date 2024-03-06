@@ -18,4 +18,9 @@ ServerEvents.recipes(e => {
 		'minecraft:bucket',
 		Fluid.of('create_things_and_misc:diluted_bonemeal', 1000),
 	])
+
+	e.recipes.createMixing('minecraft:cobblestone', [
+		Fluid.of('minecraft:water', 1000),
+		Fluid.of('minecraft:lava', 1000)
+	])
 })

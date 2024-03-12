@@ -1,117 +1,20 @@
-New :
-    - The launcher was here in open beta ! You can download it here : https://github.com/Dragonir44/JFLauncher/releases/latest (The README is comming soon to explain the features and the troubleshooting)
+Version 1.0.3
 
-Add :
-    - Ad astra
-    - Alex's Caves
-    - Alex's delight
-    - Apothic Curios
-    - Aquacombat
-    - Aquaculture delight
-    - Aquamirae
-    - Auudio forge (lib)
-    - Basic Nether ores
-    - Better chunkloading
-    - Better Third Person
-    - Botany Pots
-    - Botany Trees
-    - Cataclysm Weaponery
-    - MrCrayfish's Furniture
-    - Chefs Delight
-    - Chunk sending
-    - Clumps
-    - Create: 
-        - Copies & Cats
-        - Central kitchen
-        - Diesel Generator
-        - Ender Transmission
-        - Mechanical Spawner
-        - Power Loader
-        - The Factory Must Grow
-    - Corn Delight
-    - CraterLib
-    - Creeper overhaul
-    - Croptopia Additions
-    - Decorative Blocks
-    - Dimensional Doors
-    - Ecologics
-    - Elevator
-    - Fabled Weaponery
-    - Famers Delight
-    - Farsight
-    - Fast sync world save
-    - Fancy Menu Audio Extension
-    - Fruits Delight
-    - Get It Together Drops
-    - Guard Villagers
-    - Insane Lib
-    - Interiors
-    - JAMD
-    - JEI Integration
-    - Just Enough Beacon
-    - KubeJS Additions
-    - Max Health Fix
-    - Mekanism ad astra
-    - Miner's delight
-    - Modular Forcefields
-    - Mysterious Mountain lib
-    - Nether Delight
-    - Obscure api
-    - Octolib
-    - PigPen
-    - Progressive Bosses
-    - Puzzles Lib
-    - Relics
-    - Repurposed structures
-    - Simple RPC
-    - Structory
-    - Tom's simple storage
-    - Trenzalore
-    - Twilight Forest
-    - Visual Workbench
-    - Waystones Teleport Pets
-    - Yung's Bridges
+- Add : 
+    - Born in chaos
+    - Ferrite core
 
-Update :
-    - Ambient Sounds
-    - Better Advancements
-    - Block UI
-    - Create:
-        - Deco
-    - Creative Core
-    - FTB Library
-    - Iron Jetpacks
-    - Macaw's Fences
-    - Minecolonies
-    - MNA Forge
-    - Moonlight
-    - Pipez
-    - ProbeJS
-    - Structurize
-    - Supplementaries
-    - Yung's Better End Island
+- Remove : 
+    - Saturn
 
-Remove :
-    - Chunkloaders
-    - Construction Wand
-    - Deeper and Darker
-    - Eating
-    - Embeddium plus
-    - Equipment Compare
-    - Fix Experience Bug
-    - Lazu lib
-    - PonderJS
-    - PowerfulJS
-    - Prism
-    - Rubidium Extra
-    - Shoulder Surfing
-    - Simple Config
-    - Simple Discord Rich Presence
-    - Simple Storage Network
-    - Tempad
-    - Terra Blender
-    - The Undergarden
-
-Other :
-
-Warning :
+- Update : 
+  - Epic Fight
+  - FTB Backups 2
+  - Minecolonies
+  - Sophisticated Core
+  - Sophisticated Backpack
+  - supermartijn642configlib
+  - supermartijn642corelib
+  - Corail Tombstone
+  - Simple Voice Chat
+  - waterframes

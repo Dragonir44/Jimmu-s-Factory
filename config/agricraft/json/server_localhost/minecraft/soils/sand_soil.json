@@ -1,0 +1,17 @@
+{
+  "path": "minecraft/soils/sand_soil.json",
+  "version": "1.18.2",
+  "json_documentation": "https://agridocs.readthedocs.io/en/master/agri_soil/",
+  "enabled": true,
+  "mods": [
+    "agricraft",
+    "minecraft"
+  ],
+  "id": "sand_soil",
+  "lang_key": "agricraft.soil.sand.name",
+  "variants": [],
+  "humidity": "arid",
+  "acidity": "neutral",
+  "nutrients": "low",
+  "growth_modifier": 0.8
+}

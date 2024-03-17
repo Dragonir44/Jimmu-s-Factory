@@ -87,12 +87,28 @@
 				title: "Unlock Ars Nouveau's craft"
 				type: "command"
 			}]
-			tasks: [{
-				count: 64L
-				id: "4F4797AA7C559F61"
-				item: "ars_nouveau:source_gem"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "148D60E8D77FC65B"
+					item: "ars_nouveau:starbuncle_shards"
+					type: "item"
+				}
+				{
+					id: "301CB93B840B1825"
+					item: "ars_nouveau:whirlisprig_shards"
+					type: "item"
+				}
+				{
+					id: "6FB8E99A10CD6C19"
+					item: "ars_nouveau:wixie_shards"
+					type: "item"
+				}
+				{
+					id: "638C6582E8239E71"
+					item: "ars_nouveau:drygmy_shard"
+					type: "item"
+				}
+			]
 			title: "Ars Nouveau"
 			x: -10.5d
 			y: -11.0d

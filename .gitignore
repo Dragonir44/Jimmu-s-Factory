@@ -30,6 +30,7 @@
 !.gitattributes
 !exclude.txt
 !exportClientToServer.bat
+!exportForApi.bat
 server/mods/AmbientSounds*
 server/mods/BetterAdvancements*
 server/mods/Controlling*

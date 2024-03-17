@@ -1,4 +1,4 @@
-#Wed Mar 06 16:54:02 CET 2024
+#Fri Mar 08 17:05:53 CET 2024
 shadowDistance=512.0
 shadowMapResolution=3072
 VF_NETHER_SAMPLES=12

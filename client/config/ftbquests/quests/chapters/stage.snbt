@@ -9,24 +9,17 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7905985F7FCB2D41"]
 			icon: "create:cogwheel"
 			id: "25D28531CF6743E3"
-			rewards: [
-				{
-					command: "/gamestage add @p create"
-					elevate_perms: true
-					icon: "create:cogwheel"
-					id: "3299A7698D63699B"
-					title: "Unlock Create's craft"
-					type: "command"
-				}
-				{
-					command: "/kubejs stages add @p create"
-					elevate_perms: true
-					id: "46BC97CDF9B4D882"
-					type: "command"
-				}
-			]
+			rewards: [{
+				command: "/gamestage add @p create"
+				elevate_perms: true
+				icon: "create:cogwheel"
+				id: "3299A7698D63699B"
+				title: "Unlock Create's craft"
+				type: "command"
+			}]
 			tasks: [
 				{
 					count: 64L
@@ -404,6 +397,49 @@
 			title: "Botania"
 			x: -10.5d
 			y: -9.0d
+		}
+		{
+			id: "7905985F7FCB2D41"
+			rewards: [
+				{
+					id: "4FF4533CD5A45FC7"
+					item: {
+						Count: 1b
+						id: "eccentrictome:tome"
+						tag: {
+							"eccentrictome:mods": {
+								alexsmobs: {
+									0: {
+										Count: 1b
+										id: "alexsmobs:animal_dictionary"
+									}
+								}
+								ars_nouveau: {
+									0: {
+										Count: 1b
+										id: "ars_nouveau:worn_notebook"
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1083AD2FDB42BA95"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			subtitle: "A little gift to save you more space on you and make it easy to return to your first base"
+			tasks: [{
+				id: "33A4DF3193D5645C"
+				title: "Start the journey"
+				type: "checkmark"
+			}]
+			title: "The bigining"
+			x: -7.5d
+			y: -12.5d
 		}
 	]
 	title: "Stages"

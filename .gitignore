@@ -7,6 +7,8 @@
 !*/config/ftbquests/**
 !*/config/aether-client.toml
 !*/config/advancementplaques-common.toml
+!*/config/alexsmobs.toml
+!*/config/ars_nouveau-common.toml
 !*/config/blue_skies-client.toml
 !*/config/cumulus_menus-client.toml
 !*/config/epicfight*.toml
@@ -29,8 +31,10 @@
 !*/servers.dat
 !.gitattributes
 !exclude.txt
-!exportClientToServer.bat
+!exportClientToServer.ps1
 !exportForApi.bat
+
+
 server/mods/AmbientSounds*
 server/mods/BetterAdvancements*
 server/mods/Controlling*

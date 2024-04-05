@@ -21,8 +21,21 @@ const modsWithCraftingTable = [
     'com.refinedmods.refinedstorage',
     'net.p3pp3rf1y.sophisticatedcore',
     'com.lothrazar.storagenetwork',
-    'com.tom.storagemod.network',
-    'mekanism.api'
+    'mekanism.api',
+    // 'com.tom.storagemod',
+    // 'com.tom.storagemod.platform',
+    // 'com.tom.storagemod.block',
+    // 'com.tom.storagemod.emi',
+    // 'com.tom.storagemod.gui',
+    // 'com.tom.storagemod.util',
+    // 'com.tom.storagemod.network',
+    // 'com.tom.storagemod.tile',
+    // 'com.tom.storagemod.item',
+    // 'com.tom.storagemod.jei',
+    // 'com.tom.storagemod.model',
+    // 'com.tom.storagemod.rei',
+    // 'com.tom.storagemod.components',
+    // 'com.tom.storagemod.platform',
 ]
 
 ServerEvents.commandRegistry(event => {

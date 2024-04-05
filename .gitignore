@@ -31,9 +31,7 @@
 !*/servers.dat
 !.gitattributes
 !exclude.txt
-!exportClientToServer.ps1
-!exportForApi.bat
-
+!tools.ps1
 
 server/mods/AmbientSounds*
 server/mods/BetterAdvancements*

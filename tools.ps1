@@ -3,6 +3,10 @@ $ErrorActionPreference = "Stop"
 $action = $args[0]
 
 Function Export-Client-To-Server {
+    param (
+        [boolean]$createZip = $false
+    )
+
     $clientModsPath = "client/mods"
     $clientConfigPath = "client/config"
     $clientKubePath = "client/kubejs"
@@ -54,6 +58,13 @@ Function Export-Client-To-Server {
     Remove-Item -Path $tempDirMods -Recurse -Force
     Remove-Item -Path $tempDirConfig -Recurse -Force
     Remove-Item -Path $tempDirKube -Recurse -Force
+
+    if ($createZip) {
+        Write-Host "Creating zip file..."
+        # Create a zip file
+        
+        Compress-Archive -Path "$serverPath/*" -DestinationPath "$serverPath.zip" -Force
+    }
 }
 
 Function Export-For-Api {
@@ -71,7 +82,13 @@ Function Export-For-Api {
 }
 
 if ($action -eq "serverExport") {
-    Export-Client-To-Server
+
+    if ($args[1] -eq "true") {
+        Export-Client-To-Server -createZip $true
+    } else {
+        Export-Client-To-Server
+    }
+
 } elseif ($action -eq "apiExport") {
     $versionName = $args[1]
     

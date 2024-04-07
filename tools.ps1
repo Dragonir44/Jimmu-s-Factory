@@ -81,7 +81,7 @@ Function Export-For-Api {
     Write-Host "Les dossiers ont été ajoutés au fichier zip avec succès."
 }
 
-if ($action -eq "serverExport") {
+if ($action -eq "server") {
 
     if ($args[1] -eq "true") {
         Export-Client-To-Server -createZip $true
@@ -89,7 +89,7 @@ if ($action -eq "serverExport") {
         Export-Client-To-Server
     }
 
-} elseif ($action -eq "apiExport") {
+} elseif ($action -eq "api") {
     $versionName = $args[1]
     
     if ($versionName -eq $null) {

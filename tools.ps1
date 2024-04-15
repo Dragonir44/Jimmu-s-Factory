@@ -76,7 +76,7 @@ Function Export-For-Api {
 
     # Ajouter les dossiers au fichier zip
     Write-Host "Ajout des dossiers au fichier zip..."
-    Compress-Archive -Force -Path "$clientFolder\assets", "$clientFolder\*config*", "$clientFolder\fancymenu*", "$clientFolder\kubejs", "$clientFolder\mods" -DestinationPath $zipFile
+    Compress-Archive -Force -Path "$clientFolder\assets", "$clientFolder\*config*", "$clientFolder\fancymenu*", "$clientFolder\kubejs", "$clientFolder\mods", "$clientFolder\shaderpacks" -DestinationPath $zipFile
 
     Write-Host "Les dossiers ont été ajoutés au fichier zip avec succès."
 }

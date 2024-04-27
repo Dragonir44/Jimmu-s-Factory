@@ -109,7 +109,7 @@
 		{
 			id: "78FA766F2A9E2B3D"
 			rewards: [{
-				command: "/gamestage add @p minecolonie"
+				command: "/gamestage add @p minecolonies"
 				elevate_perms: true
 				icon: "structurize:sceptergold"
 				id: "622947CF7A707B86"

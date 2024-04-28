@@ -92,7 +92,7 @@ if ($action -eq "server") {
 } elseif ($action -eq "api") {
     $versionName = $args[1]
     
-    if ($versionName -eq $null) {
+    if ($null -eq $versionName) {
         Write-Host "Please provide a version name."
     } else {
         Export-For-Api $versionName

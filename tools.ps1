@@ -81,6 +81,27 @@ Function Export-For-Api {
     Write-Host "Les dossiers ont été ajoutés au fichier zip avec succès."
 }
 
+Function Install-ForgeServer {
+    $version = $args[0]
+
+    if ($null -eq $version) {
+        Write-Host "Please provide a version name."
+    } else {
+        Write-Host "Downloading Forge server..."
+        Invoke-WebRequest -Uri "https://maven.minecraftforge.net/net/minecraftforge/forge/$version/forge-$version-installer.jar" -OutFile "./server/forge-$version-installer.jar"
+
+        Set-Location "./server"
+
+        Write-Host "Installing Forge server..."
+        java -jar "forge-$version-installer.jar" --installServer
+
+        Write-Host "Cleaning up..."
+        Remove-Item -Path "forge-$version-installer.jar" -Force
+
+        Set-Location ".."
+    }
+}
+
 if ($action -eq "server") {
 
     if ($args[1] -eq "true") {
@@ -97,6 +118,10 @@ if ($action -eq "server") {
     } else {
         Export-For-Api $versionName
     }
+
+} elseif ($action -eq "forge") {
+
+    Install-ForgeServer $args[1]
 
 } else {
     Write-Host "Invalid action. Please provide a valid action."

@@ -3,6 +3,7 @@ BetterAdvancements
 Controlling-forge
 drippyloadingscreen_forge
 dynamiclightsreforged
+DistantHorizons
 embeddium
 embeddiumplus
 fancymenu

@@ -10,6 +10,7 @@
 !*/config/alexsmobs.toml
 !*/config/ars_nouveau-common.toml
 !*/config/blue_skies-client.toml
+!*/config/cataclysm.toml
 !*/config/cumulus_menus-client.toml
 !*/config/epicfight*.toml
 !*/config/epic_fight*.toml
@@ -32,6 +33,8 @@
 !.gitattributes
 !exclude.txt
 !tools.ps1
+!updateTemplate.html
+!changelog
 
 server/mods/AmbientSounds*
 server/mods/BetterAdvancements*

@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "repeatable"
+	group: ""
+	id: "311D8F7B5EF084BF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "197B211BAFFD7CFC"
+		rewards: [{
+			id: "09E04B8BFE2109E6"
+			item: "cataclysm:burning_ashes"
+			type: "item"
+		}]
+		tasks: [{
+			entity: "cataclysm:ignis"
+			icon: "cataclysm:ignitium_ingot"
+			id: "6F054A00D44DDB84"
+			title: "Kill Ignis"
+			type: "kill"
+			value: 1L
+		}]
+		x: 0.0d
+		y: -1.0d
+	}]
+	title: "Repeatable"
+}

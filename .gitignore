@@ -5,6 +5,7 @@
 !*/config/extendedcrafting/**
 !*/config/fancymenu/**
 !*/config/ftbquests/**
+!*/config/simple-rpc/simple-rpc.toml
 !*/config/aether-client.toml
 !*/config/advancementplaques-common.toml
 !*/config/alexsmobs.toml

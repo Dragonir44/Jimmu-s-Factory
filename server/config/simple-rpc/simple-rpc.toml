@@ -169,7 +169,7 @@
 #Fallback event for disabled events
 [generic]
 	#The first line of text under the app name
-	description = "Playing Minecraft"
+	description = "Playing Jimmu's Factory"
 	#The second line of text under the app name
 	state = ""
 	#The Asset ID of the image to display as the large image

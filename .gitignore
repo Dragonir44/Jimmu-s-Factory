@@ -18,6 +18,7 @@
 !*/config/ironjetpacks/**
 !*/config/inventoryhud-client.toml
 !*/config/packmenu.cfg
+!*/config/quark-common.toml
 !*/config/supplementaries*.toml
 !*/config/waystones-common.toml
 !*/defaultconfigs/*

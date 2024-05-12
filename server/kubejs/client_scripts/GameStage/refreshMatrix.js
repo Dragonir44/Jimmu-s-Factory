@@ -3,7 +3,8 @@ const modsWithCraftingTable = [
     'net.p3pp3rf1y.sophisticatedcore',
     'com.lothrazar.storagenetwork',
     'com.tom.storagemod.network',
-    'mekanism.api'
+    'mekanism.api',
+    'mcjty.rftools.api',
 ]
 
 ClientEvents.loggedIn(event => {

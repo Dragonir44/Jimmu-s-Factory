@@ -21,7 +21,11 @@ const modsWithCraftingTable = [
     'com.refinedmods.refinedstorage',
     'net.p3pp3rf1y.sophisticatedcore',
     'com.lothrazar.storagenetwork',
-    'mekanism.api'
+    'com.tom.storagemod.network',
+    'mekanism.api',
+    'mcjty.rftools.api',
+    'mcjty.rftools.api.general',
+    'mcjty.rftools',
 ]
 
 ServerEvents.commandRegistry(event => {

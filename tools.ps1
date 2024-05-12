@@ -13,6 +13,11 @@ Function Export-Client-To-Server {
     $excludeFiles = "exclude.txt"
     $serverPath = "server"
 
+    # Clear config folder with only necessary files
+    Write-Host "Clearing config folder..."
+    Remove-Item -Path "$clientConfigPath" -Recurse -Force
+    git restore --source=HEAD --staged --worktree -- $clientConfigPath/*
+
     Write-Host "Creating temporary directory..."
     # Create a temporary directory
     $tempDirMods = New-Item -ItemType Directory -Path "$env:TEMP\exportClientToServerMods"
@@ -63,7 +68,7 @@ Function Export-Client-To-Server {
         Write-Host "Creating zip file..."
         # Create a zip file
         
-        Compress-Archive -Path "$serverPath/*" -DestinationPath "$serverPath.zip" -Force
+        Compress-Archive -Path "$serverPath/config", "$serverPath/defaultconfigs", "$serverPath/kubejs", "$serverPath/libraries", "$serverPath/mods", "$serverPath/run.bat", "$serverPath/run.sh", "$serverPath/server.properties", "$serverPath/user_jvm_args.txt" -DestinationPath "$serverPath.zip" -Force
     }
 }
 
@@ -73,6 +78,11 @@ Function Export-For-Api {
 
     # Chemin de l'archive zip
     $zipFile = $args[0] + ".zip"
+    
+    # Clear config folder with only necessary files
+    Write-Host "Clearing config folder..."
+    Remove-Item -Path "client/config" -Recurse -Force
+    git restore --source=HEAD --staged --worktree -- "client/config/*"
 
     # Ajouter les dossiers au fichier zip
     Write-Host "Ajout des dossiers au fichier zip..."

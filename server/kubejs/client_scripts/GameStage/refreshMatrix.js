@@ -5,6 +5,8 @@ const modsWithCraftingTable = [
     'com.tom.storagemod.network',
     'mekanism.api',
     'mcjty.rftools.api',
+    'mcjty.rftools.api.general',
+    'mcjty.rftools',
 ]
 
 ClientEvents.loggedIn(event => {

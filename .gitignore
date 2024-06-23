@@ -34,7 +34,7 @@
 !*/servers.dat
 !.gitattributes
 !exclude.txt
-!tools.ps1
+!tools.*
 !updateTemplate.html
 !changelog
 

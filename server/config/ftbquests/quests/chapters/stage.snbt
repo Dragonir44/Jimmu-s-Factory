@@ -30,7 +30,7 @@
 				{
 					count: 64L
 					id: "20E3C6DDC57D297F"
-					item: { Count: 64b, id: "minecraft:andesite" }
+					item: { Count: 64, id: "minecraft:andesite" }
 					type: "item"
 				}
 			]
@@ -139,7 +139,7 @@
 			tasks: [{
 				count: 64L
 				id: "1801982EC09829E2"
-				item: { Count: 64b, id: "bigreactors:yellorite_ore" }
+				item: { Count: 64, id: "bigreactors:yellorite_ore" }
 				type: "item"
 			}]
 			title: "Big Reactors"
@@ -160,7 +160,7 @@
 			tasks: [{
 				count: 64L
 				id: "181C81D0A4FBB61C"
-				item: { Count: 64b, id: "mna:vinteum_ore" }
+				item: { Count: 64, id: "mna:vinteum_ore" }
 				type: "item"
 			}]
 			title: "Mana and Artifice"
@@ -218,13 +218,13 @@
 				{
 					count: 64L
 					id: "1EEF99E3E6C0FBB4"
-					item: { Count: 64b, id: "minecraft:iron_ingot" }
+					item: { Count: 64, id: "minecraft:iron_ingot" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "088B601968984D85"
-					item: { Count: 64b, id: "minecraft:copper_ingot" }
+					item: { Count: 64, id: "minecraft:copper_ingot" }
 					type: "item"
 				}
 				{
@@ -241,19 +241,19 @@
 				{
 					count: 64L
 					id: "47714C7CE3C084BF"
-					item: { Count: 64b, id: "mekanism:ingot_osmium" }
+					item: { Count: 64, id: "mekanism:ingot_osmium" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "6D8CE0EF67F65437"
-					item: { Count: 64b, id: "mekanism:ingot_tin" }
+					item: { Count: 64, id: "mekanism:ingot_tin" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "091BE5A3C95E4A3D"
-					item: { Count: 64b, id: "mekanism:ingot_lead" }
+					item: { Count: 64, id: "mekanism:ingot_lead" }
 					type: "item"
 				}
 			]
@@ -280,13 +280,13 @@
 				{
 					count: 64L
 					id: "728723A4EFF2CFCB"
-					item: { Count: 64b, id: "mysticalagriculture:prosperity_shard" }
+					item: { Count: 64, id: "mysticalagriculture:prosperity_shard" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "144B13F243CEB08D"
-					item: { Count: 64b, id: "mysticalagriculture:inferium_essence" }
+					item: { Count: 64, id: "mysticalagriculture:inferium_essence" }
 					type: "item"
 				}
 			]
@@ -297,7 +297,7 @@
 		{
 			dependencies: ["25D28531CF6743E3"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "botania:lexicon"
 				tag: {
 					"botania:elven_unlock": 1b
@@ -404,7 +404,7 @@
 				{
 					id: "4FF4533CD5A45FC7"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "eccentrictome:tome"
 						tag: {
 							"eccentrictome:mods": {
@@ -418,6 +418,15 @@
 									0: {
 										Count: 1b
 										id: "ars_nouveau:worn_notebook"
+									}
+								}
+								mffs: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "mffs:handbook"
+										}
 									}
 								}
 							}
